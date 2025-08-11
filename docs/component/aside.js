@@ -30,7 +30,6 @@ templateAsideDoc.documentElement.innerHTML = `
                 <!-- <li>Doctoral Consortium Submission: Sunday 1 September, 2024</li>
                 <li>Doctoral Consortium Notification: Sunday 29 September, 2024</li> -->
                 <li>Author Registration: <span style="text-decoration: line-through;">21 Sept 25</span> <span style="color:rgb(243, 25, 25); font-weight:700;"> 5 Oct 25 </span></li>
-                <li>Conference Date: 26--28 Nov 25</li>
             </ul>
         </div>
     </aside>
