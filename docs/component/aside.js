@@ -21,15 +21,16 @@ templateAsideDoc.documentElement.innerHTML = `
         <div id="Keydates">
             <h4>Important Dates (AoE 11.59pm)</h4>
             <ul>
-                <li>Abstract submission: <span style="text-decoration: line-through;">3 Aug 25</span> <span style="color:rgb(243, 25, 25); font-weight:700;"> 10 Aug 25</span></li>
-                <li>Paper submission: <span style="text-decoration: line-through;">10 Aug 25</span> <span style="color:rgb(243, 25, 25); font-weight:700;">17 Aug 25</span></li>
-                <li>Paper notiﬁcation: 7 Sept 25 </li>
-                <li>Camera-ready: 21 Sept 25 </li>
-                <!--<li>Tutorial/Workshop submission: 18 Aug 24</li>
-                <li>Tutorial/Workshop notiﬁcation: 15 Sept 24</li>
-                <li>Doctoral Consortium Submission: 1 Sept 24</li>
-                <li>Doctoral Consortium Notification: 29 Sept 24</li>--!>
-                <li>Author Registration: 21 Sept 25</li>
+                <li>Abstract submission: <span style="text-decoration: line-through;">10 Aug 25</span> <span style="color:rgb(243, 25, 25); font-weight:700;"> 17 Aug 25</span></li>
+                <li>Paper submission: <span style="text-decoration: line-through;">17 Aug 25</span> <span style="color:rgb(243, 25, 25); font-weight:700;">24 Aug 25</span></li>
+                <li>Paper Notification:  <span style="text-decoration: line-through;">7 Sept 25</span> <span style="color:rgb(243, 25, 25); font-weight:700;"> 21 Sept 25 </span></li>
+                <li>Camera-Ready Submission: <span style="text-decoration: line-through;">21 Sept 25</span> <span style="color:rgb(243, 25, 25); font-weight:700;"> 5 Oct 25 </span></li>
+                <!-- <li>Tutorial/ Workshop Proposal Submission: Sunday 18 August, 2024</li>
+                <li>Tutorial/ Workshop Proposal Notification: Sunday 15 September, 2024</li> -->
+                <!-- <li>Doctoral Consortium Submission: Sunday 1 September, 2024</li>
+                <li>Doctoral Consortium Notification: Sunday 29 September, 2024</li> -->
+                <li>Author Registration: <span style="text-decoration: line-through;">21 Sept 25</span> <span style="color:rgb(243, 25, 25); font-weight:700;"> 5 Oct 25 </span></li>
+                <li>Conference Date: 26--28 Nov 25</li>
             </ul>
         </div>
     </aside>
