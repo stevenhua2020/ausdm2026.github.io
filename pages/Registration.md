@@ -4,7 +4,7 @@
 
 ::: link
 
-Registration is opened, please click [HERE](https://payments.rmit.edu.au/VWP/booking?UDS_ACTION=S1I&UDS_ACTION_DATA=FVEjdzNFW3NOL1UBN0JDBV0jQgxJX0IbWTNDLQZBUTB-Nltd ) to register!
+Registration is opened, please click to register!
 
 :::
 
