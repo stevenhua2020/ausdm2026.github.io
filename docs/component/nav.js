@@ -38,7 +38,8 @@ templateNavDoc.documentElement.innerHTML = `
                         <li><a href="./Travel Brisbane.html">Travel Brisbane</a></li>
                     </ul>
                 </li>
-
+                
+                <li><a href="./Registration.html">Registration</a></li>
                 <li><a href="./Conference Policies.html">Conference Policies</a></li>
                 <li><a href="./Journal Special Issue.html">Journal Special Issue</a></li>
                 <!-- <li><a href="./Sponsorship.html">Sponsorship</a></li> -->
