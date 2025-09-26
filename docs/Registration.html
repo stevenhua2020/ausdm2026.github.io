@@ -19,37 +19,68 @@
     <title>The 23rd Australasian Data Science and Machine Learning Conference (AusDM'25)</title>
 </head>
 <style>
-.left-alignment{
+.left-alignment {
     text-align: left;
     padding-left: 20px;
 }
-
-.conference-table {
-  width: 100%;
-  max-width: 600px;
-  margin: 20px auto;
-  border-collapse: collapse;
-  font-family: Arial, sans-serif;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+.pricing-table {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
-.conference-table th, .conference-table td {
-  padding: 15px;
-  text-align: center;
-  border: 1px solid #ddd;
+.pricing-table th, .pricing-table td {
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #ddd;
 }
-.conference-table th {
-  background-color: #4CAF50;
-  color: white;
-  font-weight: bold;
+.pricing-table th {
+    background-color: #4CAF50;
+    color: white;
+    font-weight: bold;
 }
-.conference-table td {
-  background-color: #f9f9f9;
+.pricing-table td {
+    background-color: #f9f9f9;
 }
-.conference-table tr:nth-child(even) td {
-  background-color: #f2f2f2;
+.pricing-table tr:nth-child(even) td {
+    background-color: #f2f2f2;
 }
-.conference-table tr:hover td {
-  background-color: #e0f7fa;
+.pricing-table tr:hover td {
+    background-color: #e0f7fa;
+}
+.pricing-table caption {
+    caption-side: top;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 10px;
+    color: #333;
+}
+.terms-conditions {
+    max-width: 600px;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+    text-align: left;
+}
+.terms-conditions h2 {
+    color: #333;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+.terms-conditions ul {
+    list-style-type: decimal;
+    padding-left: 20px;
+}
+.terms-conditions li {
+    margin-bottom: 10px;
+}
+.terms-conditions a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+.terms-conditions a:hover {
+    text-decoration: underline;
 }
 </style>
 <body>
@@ -77,14 +108,13 @@
             <div class="content-container">
                 <article>
                     <h1>Registration</h1>
-                    <div class="link" style="height: 180px;">
-                        <p style="margin: 65px auto; font-size: larger;">Registration is not opened yet, please comeback later
+                    <div class="link" style="height: auto;">
+                        <p style="margin: 65px auto; font-size: larger;">Registration is not opened yet, please come back later
                         to register!</p>
-                        <!-- <p style="margin: 65px auto; font-size: larger;">Registration link will be made available by
-                            Tuesday 24 September.</p> -->
                     </div>
                     <h2>Registration Fees</h2>
-                    <table class="conference-table">
+                    <table class="pricing-table">
+                        <caption>Conference Pricing</caption>
                         <tr>
                             <th>Category</th>
                             <th>Early (until 13 Oct 2025)</th>
@@ -106,6 +136,17 @@
                             <td>$350</td>
                         </tr>
                     </table>
+                    <div class="terms-conditions">
+                        <h2>Terms and Conditions</h2>
+                        <ul>
+                            <li>Full registration includes all sessions scheduled on Days 1, 2, and 3, social networking sessions, and the conference banquet.</li>
+                            <li>Single Day registration includes all sessions scheduled on that particular day but does not include the conference banquet. To attend the conference banquet, please purchase a separate ticket.</li>
+                            <li>Each accepted paper requires at least one Non-Student Full Registration for inclusion in the conference proceedings. If you have more than one accepted paper, each paper requires a separate registration.</li>
+                            <li>The early bird fee will close on Monday 13 Oct 2025 (11:59 pm, AEDT).</li>
+                            <li>To request an invitation letter, please contact <a href="ausdm2025@gmail.com">ausdm2025@gmail.com</a>.</li>
+                            <li>All registrations are non-refundable. However, transferring a registration to another attendee is permitted with at least 5 working days' notification sent to <a href="mailto:ausdm2025@gmail.com">ausdm2025@gmail.com</a>.</li>
+                        </ul>
+                    </div>
                 </article>
             </div>
             <template-aside></template-aside>
