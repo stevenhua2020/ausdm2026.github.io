@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="Content-Type" contect="text/html">
+    <meta http-equiv="Content-Type" content="text/html">
     <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
     <meta http-equiv="Pragma" content="no-cache" />
     <meta http-equiv="Expires" content="0" />
@@ -22,6 +22,34 @@
 .left-alignment{
     text-align: left;
     padding-left: 20px;
+}
+
+.conference-table {
+  width: 100%;
+  max-width: 600px;
+  margin: 20px auto;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.conference-table th, .conference-table td {
+  padding: 15px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+.conference-table th {
+  background-color: #4CAF50;
+  color: white;
+  font-weight: bold;
+}
+.conference-table td {
+  background-color: #f9f9f9;
+}
+.conference-table tr:nth-child(even) td {
+  background-color: #f2f2f2;
+}
+.conference-table tr:hover td {
+  background-color: #e0f7fa;
 }
 </style>
 <body>
@@ -55,6 +83,29 @@
                         <!-- <p style="margin: 65px auto; font-size: larger;">Registration link will be made available by
                             Tuesday 24 September.</p> -->
                     </div>
+                    <h2>Registration Fees</h2>
+                    <table class="conference-table">
+                        <tr>
+                            <th>Category</th>
+                            <th>Early (until 13 Oct 2025)</th>
+                            <th>Late (from 14 Oct 2025)</th>
+                        </tr>
+                        <tr>
+                            <td>Full Delegates</td>
+                            <td>$900</td>
+                            <td>$1000</td>
+                        </tr>
+                        <tr>
+                            <td>Students</td>
+                            <td>$500</td>
+                            <td>$600</td>
+                        </tr>
+                        <tr>
+                            <td>Day Delegates</td>
+                            <td>$300</td>
+                            <td>From $350</td>
+                        </tr>
+                    </table>
                 </article>
             </div>
             <template-aside></template-aside>
