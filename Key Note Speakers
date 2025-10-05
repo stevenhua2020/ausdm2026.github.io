@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speakers</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            color: #333;
+        }
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+        }
+        h3 {
+            color: #34495e;
+            margin-top: 30px;
+        }
+        h4 {
+            color: #7f8c8d;
+            font-style: italic;
+            margin-bottom: 5px;
+        }
+        p {
+            margin-bottom: 15px;
+        }
+        .speaker-section {
+            margin-bottom: 40px;
+            border-bottom: 1px solid #bdc3c7;
+            padding-bottom: 20px;
+        }
+        .affiliation {
+            font-weight: bold;
+            color: #e74c3c;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Speakers</h1>
+
+    <div class="speaker-section">
+        <h3>Prof. Gianluca Demartini</h3>
+        <h4>ARC Future Fellow</h4>
+        <p class="affiliation">University of Queensland, Australia</p>
+        <p>Dr. Gianluca Demartini is a Professor in Data Science and an ARC Future Fellow at the University of Queensland, School of Electrical Engineering and Computer Science, Australia. He holds a PhD in Computer Science from Leibniz University of Hannover, Germany. His main research interests include Information Retrieval, Semantic Search, Human Computation, Crowdsourcing, and AI fairness. He has published over 200 peer-reviewed papers, received Best Paper Awards at WWW 2018 and ECIR 2016, and a Best Demo Award at ISWC 2011. Previously, he was a Senior Lecturer at the University of Sheffield, UK, and has held visiting positions at various institutions. He serves as Director of the Master of Data Science program at UQ and focuses on building resilient data pipelines and addressing bias in AI systems.<grok-card data-id="0c74cb" data-type="citation_card"></grok-card><grok-card data-id="bc299e" data-type="citation_card"></grok-card><grok-card data-id="a162dd" data-type="citation_card"></grok-card></p>
+    </div>
+
+    <div class="speaker-section">
+        <h3>Prof. Kerrie Mengersen</h3>
+        <h4>Fellow of the Australian Academy of Science</h4>
+        <p class="affiliation">Queensland University of Technology, Australia</p>
+        <p>Kerrie Mengersen holds a BA (Hons) in Mathematical Statistics and Computing and a PhD in Mathematical Statistics, both from the University of New England, NSW, Australia. She is a Distinguished Professor of Statistics at Queensland University of Technology and Director of the QUT Centre for Data Science. Her research focuses on Bayesian statistics, hierarchical modelling, and complex systems with applications in health, environment, and industry. She has made significant contributions to statistical methodology and environmental, health, and industrial statistics. She has published over 300 peer-reviewed articles, secured substantial research funding, and is the 2024 recipient of the Pitman Medal. She is also a Fellow of the Australian Academy of Science and has held various leadership roles in statistical societies.<grok-card data-id="3fa51d" data-type="citation_card"></grok-card><grok-card data-id="cc31d2" data-type="citation_card"></grok-card><grok-card data-id="8f6705" data-type="citation_card"></grok-card></p>
+    </div>
+
+    <div class="speaker-section">
+        <h3>Prof. Shirui Pan</h3>
+        <h4>ARC Future Fellow</h4>
+        <p class="affiliation">Griffith University, Australia</p>
+        <p>Prof. Shirui Pan is a Professor and an ARC Future Fellow at the School of Information and Communication Technology, Griffith University, Australia. He received his PhD in Computer Science from the University of Technology Sydney, Australia, and his Master's and Bachelor's degrees from Northwestern Polytechnical University, China. His research interests include artificial intelligence, data mining, machine learning, and graph data analysis, particularly graph neural networks and their applications. He has published over 200 research papers in top-tier journals and conferences, attracting over 49,000 citations with an h-index of 80. He is recognized as one of the AI 2000 AAAI/IJCAI Most Influential Scholars in Australia (2021, 2022) and one of the World's Top 2% Scientists (2021). Previously, he was a Senior Lecturer at Monash University.<grok-card data-id="a607c8" data-type="citation_card"></grok-card><grok-card data-id="b4bd37" data-type="citation_card"></grok-card><grok-card data-id="bcd2fa" data-type="citation_card"></grok-card></p>
+    </div>
+
+    <div class="speaker-section">
+        <h3>Dr. Sankalp Khanna</h3>
+        <p class="affiliation">CSIRO Australian e-Health Research Centre, Australia</p>
+        <p>Dr. Sankalp Khanna holds a BEngg, MInfTech, and PhD. He is a Principal Research Scientist and Team Leader of Health Intelligence at the CSIRO Australian e-Health Research Centre. His research applies Artificial Intelligence, Operations Research, and Simulation Modelling to healthcare decision-making, including analyzing emergency department patient journeys, resource allocation, and developing clinical decision support systems. He leads a team focused on translational research to improve clinical and operational decisions in healthcare. He has published numerous papers on health informatics, digital health, and AI applications in medicine, with a focus on bottlenecks in patient flow and preterm infant outcomes.<grok-card data-id="63d187" data-type="citation_card"></grok-card><grok-card data-id="457e15" data-type="citation_card"></grok-card><grok-card data-id="799e03" data-type="citation_card"></grok-card></p>
+    </div>
+
+    <div class="speaker-section">
+        <h3>Dr. Kenny Sabir</h3>
+        <p class="affiliation">AgriWebb, Australia</p>
+        <p>Dr. Kenneth Sabir is VP of R&D at AgriWebb, where he was the company's first employee and former Head of Engineering, helping it grow to support 20,000 livestock producers globally. He now spearheads Foragecaster, a $7.5M, four-year Food Agility CRC collaboration with research partners including UTS, QUT, UNE Smart Farm, and Cibo Labs, focused on developing AI-powered planning tools for improved agricultural productivity and resilience. This includes machine learning models for livestock growth forecasting (using over 60 million animal records), pasture growth and quality forecasting (combining biophysical models, climate forecasts, and remote sensing), and sustainability analysis (carbon sequestration, emissions efficiency, ground cover, and water metrics). These are integrated into tools like a grazing planner for stock movements, feed budgets, and sustainability outcomes. The project addresses challenges in heterogeneous data integration, explainability in agricultural ML, and farmer co-design. Kenneth's background includes technical leadership at IBM and Bell Labs in bio-inspired computing and stream processing, Bioinformatics Architect at the Garvan Institute, and software development for water management with the Irrigation Futures CRC. He holds 14 patents and has authored a dozen peer-reviewed papers in database design, data visualisation, stream processing, text-mining, pasture growth ML, remote sensing, and bio-inspired computing.<grok-card data-id="c68abf" data-type="citation_card"></grok-card><grok-card data-id="c5ece3" data-type="citation_card"></grok-card><grok-card data-id="698a00" data-type="citation_card"></grok-card></p>
+    </div>
+
+</body>
+</html>
