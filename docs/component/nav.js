@@ -28,7 +28,7 @@ templateNavDoc.documentElement.innerHTML = `
                 <li><a href="./Organizing Committee.html">Committees <i class="arrow down"></i></a>
                     <ul class="submenu">
                         <li><a href="./Organizing Committee.html">Organising Committee</a></li>
-                        <!-- <li><a href="./Program Committee.html">Program Committee</a></li> -->
+                        <li><a href="./Program Committee.html">Program Committee</a></li>
                     </ul>
                 </li>
 
