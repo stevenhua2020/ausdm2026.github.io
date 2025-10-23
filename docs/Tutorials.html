@@ -20,6 +20,46 @@
   <script src="./component/footer.js"></script>
 
   <title>The 23rd Australasian Data Science and Machine Learning Conference (AusDM'25)</title>
+
+  <!-- Page-local safety net to keep the content | aside layout intact -->
+  <style>
+    .main-container {
+      display: grid;
+      grid-template-columns: minmax(0,1fr) 320px; /* content | sidebar */
+      gap: 24px;
+      align-items: start;
+    }
+    .content-container { min-width: 0; }
+
+    /* Center & tidy speaker cards (optional, matches your theme) */
+    .speakers {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 32px;
+      margin: 24px 0 8px;
+    }
+    .speaker {
+      width: 300px;
+      text-align: center;
+      background-color: #f8f9fb;
+      padding: 18px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+    }
+    .speaker img {
+      width: 160px;
+      height: 160px;
+      border-radius: 50%;
+      object-fit: cover;
+      display: block;
+      margin: 0 auto 12px;
+    }
+
+    @media (max-width: 1300px) {
+      .main-container { display: block; } /* aside is hidden by its own CSS under 1300px */
+    }
+  </style>
 </head>
 <body>
   <header>
@@ -47,16 +87,17 @@
         <article>
 
           <!-- ===== Tutorial 1 ===== -->
-          <h1>Tutorial 1 </h1>
+          <h1>Tutorial 1</h1>
           <div class="card">
-            <h1>Trustworthy Machine Learning for Real-Time Operation and Control of Renewable Power Systems: A Knowledge-Guided Approach</h6>
+            <!-- FIXED: closed with </h1> not </h6> -->
+            <h1>Trustworthy Machine Learning for Real-Time Operation and Control of Renewable Power Systems: A Knowledge-Guided Approach</h1>
 
             <div class="speakers">
               <div class="speaker">
                 <p>
-                <a href="https://www.qut.edu.au/about/our-people/academic-profiles/yuchen1.zhang" target="_blank" rel="noopener">
+                  <a href="https://www.qut.edu.au/about/our-people/academic-profiles/yuchen1.zhang" target="_blank" rel="noopener">
                     <img src="./media/Speech/Tutorial/YuchenZhang.jpg" alt="Yuchen Zhang" />
-                    </a>
+                  </a>
                 </p>
                 <h2>Dr. Yuchen Zhang</h2>
                 <h6>School of Electrical Engineering and Robotics, Queensland University of Technology</h6>
@@ -64,10 +105,10 @@
               </div>
 
               <div class="speaker">
-                   <p>
-                <a href="https://staffprofile.unisq.edu.au/Profile/Yuting-Zhu" target="_blank" rel="noopener">
+                <p>
+                  <a href="https://staffprofile.unisq.edu.au/Profile/Yuting-Zhu" target="_blank" rel="noopener">
                     <img src="./media/Speech/Tutorial/YutingZhu.jpg" alt="Yuting Zhu" />
-                    </a>
+                  </a>
                 </p>
                 <h2>Dr. Yuting Zhu</h2>
                 <h6>School of Engineering, University of Southern Queensland</h6>
@@ -111,48 +152,48 @@
               assistive technologies.</p>
           </div>
 
-          <!-- ===== Tutorial 2 (duplicate of Tutorial 1) ===== -->
-          <h1>Tutorial 2 </h1>
+          <!-- ===== Tutorial 2 ===== -->
+          <h1>Tutorial 2</h1>
           <div class="card">
-              <h1>Data-Driven AI for Dynamic Service Ecosystems: From Intent Mining to Proactive Network Assurance</h1>
+            <h1>Data-Driven AI for Dynamic Service Ecosystems: From Intent Mining to Proactive Network Assurance</h1>
 
+            <!-- FIXED: all three speakers inside one .speakers wrapper -->
             <div class="speakers">
               <div class="speaker">
-                   <p>
-                <a href="https://www.srmist.edu.in/faculty/dr-k-priyadarsini/" target="_blank" rel="noopener">
+                <p>
+                  <a href="https://www.srmist.edu.in/faculty/dr-k-priyadarsini/" target="_blank" rel="noopener">
                     <img src="./media/Speech/Tutorial/PriyadarsiniK.png" alt="Priyadarsini K" />
-                    </a>
+                  </a>
                 </p>
-               <h2>Dr. Priyadarsini K</h2>
+                <h2>Dr. Priyadarsini K</h2>
                 <h6>Associate Professor, Department of Data Science and Business Systems, SRM Institute of Science and Technology, India</h6>
                 <h6>Email: priyadak@srmist.edu.in</h6>
               </div>
 
               <div class="speaker">
-                 <p>
-                <a href="https://www.srmist.edu.in/faculty/s-karthik/" target="_blank" rel="noopener">
+                <p>
+                  <a href="https://www.srmist.edu.in/faculty/s-karthik/" target="_blank" rel="noopener">
                     <img src="./media/Speech/Tutorial/KarthikS.png" alt="Karthik S" />
-                    </a>
+                  </a>
                 </p>
                 <h2>Dr. Karthik S</h2>
                 <h6>Associate Professor, Department of Electronics and Communication Engineering, SRM Institute of Science and Technology, India</h6>
                 <h6>Email: karthiks1@srmist.edu.in</h6>
               </div>
-            </div>
 
-            <div class="speaker">
-                 <p>
-                <a href="https://www.srmist.edu.in/faculty/dr-m-prakash/" target="_blank" rel="noopener">
+              <div class="speaker">
+                <p>
+                  <a href="https://www.srmist.edu.in/faculty/dr-m-prakash/" target="_blank" rel="noopener">
                     <img src="./media/Speech/Tutorial/MPrakash.png" alt="M. Prakash" />
-                    </a>
+                  </a>
                 </p>
                 <h2>Dr. M. Prakash</h2>
                 <h6>Professor, Department of Data Science and Business Systems, SRM Institute of Science and Technology, India</h6>
-                    <h6>Email: prakashm2@srmist.edu.in</h6>
+                <h6>Email: prakashm2@srmist.edu.in</h6>
               </div>
             </div>
 
-           <h4>Abstract:</h4>
+            <h4>Abstract:</h4>
             <p>Next-generation digital ecosystems spanning healthcare, manufacturing, IoT, and autonomous systems require real-time,
               adaptive service delivery. Traditional static infrastructures struggle to meet these diverse demands. This tutorial
               explores how data mining and machine learning can be embedded into large-scale service networks to enable intent-driven,
@@ -204,6 +245,8 @@
 
         </article>
       </div>
+
+      <!-- The countdown/aside stays on the right column -->
       <template-aside></template-aside>
     </div>
   </main>
