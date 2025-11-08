@@ -2,29 +2,42 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="./media/AusDM-square-Logo2.png" type="image/x-icon">
-    <meta http-equiv="Content-Type" content="text/html">
-    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
-    <meta http-equiv="Pragma" content="no-cache" />
-    <meta http-equiv="Expires" content="0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="./media/AusDM-square-Logo2.png" type="image/x-icon">
+  <meta http-equiv="Content-Type" content="text/html">
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+  <meta http-equiv="Pragma" content="no-cache" />
+  <meta http-equiv="Expires" content="0" />
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="./css/header.css">
-    <link rel="stylesheet" href="./css/article.css">
-    <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="./css/header.css">
+  <link rel="stylesheet" href="./css/article.css">
+  <link rel="stylesheet" href="./css/style.css">
 
-    <script src="./script/dynamic-viewport.js"></script>
-    <script src="./component/nav.js"></script>
-    <script src="./component/aside.js"></script>
-    <script src="./component/footer.js"></script>
+  <script src="./script/dynamic-viewport.js"></script>
+  <script src="./component/nav.js"></script>
+  <script src="./component/aside.js"></script>
+  <script src="./component/footer.js"></script>
 
-    <title>The 23rd Australasian Data Science and Machine Learning Conference (AusDM'25)</title>
+  <title>The 23rd Australasian Data Science and Machine Learning Conference (AusDM'25)</title>
+
+  <style>
+    /* Schedule table styling to match program page look */
+    .program-table { width:100%; border-collapse:separate; border-spacing:0; background:#fff; border-radius:14px; overflow:hidden; box-shadow:0 8px 26px rgba(9,30,66,.08); margin: 1rem 0 2rem; }
+    .program-table thead th { background:#00457d; color:#fff; font-weight:600; letter-spacing:.02em; font-size:.9rem; text-transform:uppercase; padding:12px 14px; }
+    .program-table td { padding:12px 14px; border-bottom:1px solid #e7eef7; vertical-align:top; }
+    .program-table tr:last-child td { border-bottom:none; }
+    .time { white-space:nowrap; font-weight:700; color:#00345f; width:160px; }
+    .session-title { font-weight:600; color:#0b2551; font-size:1rem; }
+    .paper-listing { margin: 0; padding-left: 1.25rem; }
+    .paper-listing li { margin: .35rem 0; }
+    .track-badge { display:inline-block; margin-top:6px; padding:2px 8px; border-radius:999px; border:1px solid #d8e4f4; background:#f0f6ff; color:#084; font-size:.8rem; }
+    /* Optional light background by track (kept subtle for readability) */
+    tr.research td    { background:#E6F0FF; }   /* light blue */
+    tr.application td { background:#EAF9F0; }   /* soft green */
+  </style>
 </head>
-<style>
-
-</style>
 
 <body>
 
@@ -220,10 +233,328 @@
 
     <template-footer></template-footer>
 
+    <div style="background-color: #fff;">
+      <svg width="100%" height="4vw" viewBox="0 0 1280 140" preserveAspectRatio="none"
+           xmlns="http://www.w3.org/2000/svg">
+        <g fill="rgba(0,69,125,0.87)">
+          <path d="M0 0v100c20 17.3 40 29.51 80 29.51 51.79 0 74.69-48.57 151.75-48.57 73.72 0 91 54.88 191.56 54.88C543.95 135.8 554 14 665.69 14c109.46 0 98.85 87 188.2 87 70.37 0 69.81-33.73 115.6-33.73 55.85 0 62 39.62 115.6 39.62 58.08 0 57.52-46.59 115-46.59 39.8 0 60 22.48 79.89 39.69V0z" />
+        </g>
+      </svg>
+    </div>
+  </header>
+
+  <main>
+    <div class="main-container">
+      <div class="content-container">
+        <article>
+          <h1>Paper Presentation Schedule</h1>
+
+          <!-- Day 1 — Session 1 (Research) -->
+          <h2>Day 1 — Wednesday, 26 November 2025</h2>
+          <table class="program-table" aria-label="Day 1 Sessions">
+            <thead>
+              <tr><th style="width: 160px;">Time</th><th>Session</th><th>Papers</th></tr>
+            </thead>
+            <tbody>
+              <tr class="research">
+                <td class="time">10:30–12:30</td>
+                <td class="session-title">
+                  Session 1 — Federated, Adaptive, and Trustworthy Machine Learning
+                  <div class="track-badge">Research track</div>
+                </td>
+                <td>
+                  <ol class="paper-listing">
+                    <li>#14 — <b>DAARA: Divergence-Aware Attention for Robust Aggregation in Federated Learning Against Poisoning Attacks</b><br>Md Palash Uddin, Mahmdul Hasan and Yong Xiang</li>
+                    <li>#34 — <b>FedMOAR: Multi-Objective Adaptive Regularization for Fair and Efficient Federated Learning</b><br>Mahmudul Hasan, Md Palash Uddin, Yong Xiang, John Yearwood and Longxiang Gao</li>
+                    <li>#29 — <b>WaveFSL: Wave Interference-Based Meta-Learning for Few-Shot Cross-Modality Traffic Forecasting</b><br>Abdul Fofanah, Lian Wen, David Chen, Shaoyang Zhang and Alpha Kamara</li>
+                    <li>#99 — <b>Dynamic Meta-Learning Ensemble for Financial Forecasting</b><br>Hanxue Yao and Irena Koprinska</li>
+                    <li>#43 — <b>Unveiling Reliability in Multi-Omics Classification: Fusion, Calibration, and Dynamic Scaling</b><br>Dang Khoa Nguyen, Duoyi Zhang, Md Abul Bashar and Richi Nayak</li>
+                    <li>#90 — <b>DriftSense: Adaptive Drift Detection with Incremental Hoeffding Trees for Real-Time Spatial Crowdsourcing</b><br>Md Mujibur Rahman, Quazi Mamun, Michael Bewong and Md Zahidul Islam</li>
+                    <li>#46 — <b>Stability Evaluation of Clusterings Across Time</b><br>Sergej Korlakov, Nina A. Liebrand and Stefan Conrad</li>
+                    <li>#15 — <b>Understanding the Asymmetric Impact of Forecast Accuracy on Decision Quality</b><br>Mahdi Abolghasemi and Richard Bean</li>
+                  </ol>
+                </td>
+              </tr>
+
+              <!-- Day 1 — Session 2 (Application) -->
+              <tr class="application">
+                <td class="time">14:30–16:15</td>
+                <td class="session-title">
+                  Session 2 — Environment, Information Security, and Productivity
+                  <div class="track-badge">Application track</div>
+                </td>
+                <td>
+                  <ol class="paper-listing">
+                    <li>#24 — <b>Effective Missing-Data Imputation for Time Series with Seasonality and Causality</b><br>Devesh Bhogal, Yanchang Zhao, Reena Kapoor, Tapas Biswas, Peter Toscas and Klaus Joehnk</li>
+                    <li>#94 — <b>Temporal Fusion of Biophysical and Climate Data: A Data-Driven Hybrid Learning Approach for Short-Term Aboveground Biomass Forecasting</b><br>Han Xu, Thirunavukarasu Balasubramaniam and Richi Nayak</li>
+                    <li>#47 — <b>Dynamic Source Code Vulnerability Characteristics Selection for Enhanced Vulnerability Discover</b><br>Abdur Rehman Khan, Yue Xu and Yuefeng Li</li>
+                    <li>#102 — <b>Defining Responsible AI: Contextual Insights Powered by LLMs</b><br>Lucky Atamhenwan, Sangeetha Kutty and Lily D Li</li>
+                    <li>#33 — <b>UniCausal: A Unified Approach to Causal Discovery from Hybrid Industrial Time Series and Events</b><br>Zhen Zhao, Brian Erickson, Shantanu Chakraborty and Wei Liu</li>
+                    <li>#77 — <b>Modelling Financial Time Series of Returns and Covariance Matrices Using Time-Space Transformers</b><br>Xiaodan Dong, Kittituch Wongwatcharapaiboon, Sugi Guanjing Lee, Jennifer S.K. Chan and Weidong Huang</li>
+                    <li>#101 — <b>Precision to Costing: Budgeted Modelling for Customer Contact Prediction</b><br>Ho Sing Tin, Richi Nayak and Darren Wraith</li>
+                  </ol>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+          <!-- Day 2 — Sessions -->
+          <h2>Day 2 — Thursday, 27 November 2025</h2>
+          <table class="program-table" aria-label="Day 2 Sessions">
+            <thead>
+              <tr><th style="width: 160px;">Time</th><th>Session</th><th>Papers</th></tr>
+            </thead>
+            <tbody>
+              <tr class="research">
+                <td class="time">13:00–15:00</td>
+                <td class="session-title">
+                  Session 3 —Deep Learning Fusion and Vision
+                  <div class="track-badge">Research track</div>
+                </td>
+                <td>
+                  <ol class="paper-listing">
+                    <li>#22 — <b>Fusing Deep Object Detectors via Spatial Heatmap-Based Relevance Modeling</b><br>Anqi Xiong, Yuefeng Li, Yanming Feng, Xiaohui Tao and Jianming Yong</li>
+                    <li>#95 — <b>A DenseNet-YOLOv8 Fusion Model for Intelligent Parasite Egg Detection and Classification</b><br>Muhammad Bilal Zia, Xujuan Zhou, Raj Gururajan and Ka Ching Chan</li>
+                    <li>#72 — <b>Integrating Vision Transformers and Autoencoders for Interpretable Cancer Risk Assessment</b><br>Ahmad Hussein, Mukesh Prasad, Ali Anaissi and Ali Braytee</li>
+                    <li>#89 — <b>LightSkinNet: Lightweight CNN with Attention for Accurate, Mobile-Efficient Multiclass Skin Lesion Classification</b><br>F M Javed Mehedi Shamrat, Xujuan Zhou, Mohd Yamani Idna Idris, Raj Gururajan and Ka Ching Chan</li>
+                    <li>#65 — <b>BARE: Boundary-Aware with Resolution Enhancement for Tree Crown Delineation</b><br>Attavit Wilaiwongsakul, Bin Liang, Wenfeng Jia, Bryan Zheng and Fang Chen</li>
+                    <li>#50 — <b>Regularizing StyleGAN with Inter-Resolution Residual Pattern Consistency via a Laplacian Pyramid</b><br>Takahiro Koide and Keisuke Kameyama</li>
+                    <li>#63 — <b>Mixup and Local-FOMA based Two-Phase Manifold Augmentation in Image Classification</b><br>Takumi Shirahama and Keisuke Kameyama</li>
+                    <li>#35 — <b>CarDamageEval: Benchmark Evaluation of Car Damage Assessment Using Vision Language Models</b><br>Md Jahid Hasan, Cong Kha Nguyen, Yee Ling Boo, Hamed Jahani and Kok-Leong Ong</li>
+                  </ol>
+                </td>
+              </tr>
+
+              <tr class="application">
+                <td class="time">15:20–17:00</td>
+                <td class="session-title">
+                  Session 4 — Health and Social Good
+                  <div class="track-badge">Application track</div>
+                </td>
+                <td>
+                  <ol class="paper-listing">
+                    <li>#30 — <b>Benchmarking Preprocessing and Integration Methods in Single-Cell Genomics</b><br>Ali Anaissi, Seid Miad Zandavi, Weidong Huang, Junaid Akram, Basem Suleiman, Ali Braytee and Jie Hua</li>
+                    <li>#31 — <b>Towards Automated Differential Diagnosis of Skin Diseases Using Deep Learning and Imbalance-Aware Strategies</b><br>Ali Anaissi, Ali Braytee, Weidong Huang, Junaid Akram, Alaa Farhat and Jie Hua</li>
+                    <li>#56 — <b>Causal Recommendation Method for Personalised Chemotherapy Optimisation in Breast Cancer</b><br>Tuyen Vu, Thuc Duy Le, Ha Xuan Tran, Lin Liu, Jiuyong Li and Jia Tina Du</li>
+                    <li>#83 — <b>Visionary: Enhancing Visual Context for the Visually Impaired</b><br>Pranav Powar and Amit Agarwal</li>
+                    <li>#11 — <b>An AI-Driven Framework for Real-Time Reporting and Identification of Lost Cats</b><br>Dezhou Zhang, Xiaodan Dong and Weidong Huang</li>
+                    <li>#74 — <b>Machine Learning for Traffic Accident Prediction: Integrating Spatial and Behavioral Data for Road Safety Insights</b><br>Sudarat Sukjaroen, Xiaodan Dong, S.T. Boris Choy and Weidong Huang</li>
+                  </ol>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+          <!-- Day 3 — Session -->
+          <h2>Day 3 — Friday, 28 November 2025</h2>
+          <table class="program-table" aria-label="Day 3 Sessions">
+            <thead>
+              <tr><th style="width: 160px;">Time</th><th>Session</th><th>Papers</th></tr>
+            </thead>
+            <tbody>
+              <tr class="research">
+                <td class="time">13:00–15:00</td>
+                <td class="session-title">
+                  Session 5 — Knowledge-Driven and Domain-Specific AI
+                  <div class="track-badge">Research track</div>
+                </td>
+                <td>
+                  <ol class="paper-listing">
+                    <li>#79 — <b>Evaluating Cross-Lingual Classification Strategies Enabling Topic Discovery for Multilingual Social Media Data</b><br>Deepak Uniyal, Md Abul Bashar and Richi Nayak</li>
+                    <li>#25 — <b>Advancing Atayal Language Preservation with AI-Driven Multimodal Speech and Text Processing</b><br>Jia-Lien Hsu and Wei-Yuan Li</li>
+                    <li>#48 — <b>ETCOD: Embedding-Based Anomaly Detection and LLM-Driven Validation Framework for Knowledge Graphs</b><br>Thi Thuy Nga Nguyen, Asara Senaratne and Leelanga Seneviratne</li>
+                    <li>#82 — <b>From Burst to Routine: Mining Time-Compact Patterns from Sequential Dataset</b><br>Khanh Luong, Daniel Angus, Yufan Kang, Abdul Obeid and Dan Tran</li>
+                    <li>#54 — <b>Top-k Ranking with Exact Positional Fairness</b><br>Nina A. Liebrand and Stefan Conrad</li>
+                    <li>#92 — <b>NeuroPhysNet: A FitzHugh-Nagumo-Based Physics-Informed Neural Network Framework for Electroencephalograph (EEG) Analysis and Motor Imagery Classification</b><br>Zhenyu Xia, Xinlei Huang, Yuantong Gu and Suvash Saha</li>
+                    <li>#66 — <b>Evaluating Structural Preprocessing in RAG for Academic Curriculum Applications</b><br>Gizem Intepe, Yingtong Liang and Laurence Park</li>
+                    <li>#91 — <b>A Parameter-free Method Tuning for Multi-scale Wildfire Images Retrieval Task</b><br>Yue Zhang</li>
+                  </ol>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+         
+          <h1>A list of accepted papers</h1>
+         
+        <h2>Research Track</h2>
+          <div class="paper-list">
+            <h3>No.4</h3>
+            <hr>
+            <h4>Multi-Faceted Content Representation: An Adaptive Framework for Comprehensive Textual Insight</h4>
+            <p>Chintan Rajesh Pamnani and Parth Kapadia</p>
+            <h3>No.14</h3>
+            <hr>
+            <h4>DAARA: Divergence-Aware Attention for Robust Aggregation in Federated Learning Against Poisoning Attacks</h4>
+            <p>Md Palash Uddin, Mahmdul Hasan and Yong Xiang</p>
+            <h3>No.15</h3>
+            <hr>
+            <h4>Understanding the Asymmetric Impact of Forecast Accuracy on Decision Quality</h4>
+            <p>Mahdi Abolghasemi and Richard Bean</p>
+            <h3>No.22</h3>
+            <hr>
+            <h4>Fusing Deep Object Detectors via Spatial Heatmap-Based Relevance Modeling</h4>
+            <p>Anqi Xiong, Yuefeng Li, Yanming Feng, Xiaohui Tao and Jianming Yong</p>
+            <h3>No.29</h3>
+            <hr>
+            <h4>WaveFSL: Wave Interference-Based Meta-Learning for Few-Shot Cross-Modality Traffic Forecasting</h4>
+            <p>Abdul Fofanah, Lian Wen, David Chen, Shaoyang Zhang and Alpha Kamara</p>
+            <h3>No.34</h3>
+            <hr>
+            <h4>FedMOAR: Multi-Objective Adaptive Regularization for Fair and Efficient Federated Learning</h4>
+            <p>Mahmudul Hasan, Md Palash Uddin, Yong Xiang, John Yearwood and Longxiang Gao</p>
+            <h3>No.35</h3>
+            <hr>
+            <h4>CarDamageEval: Benchmark Evaluation of Car Damage Assessment Using Vision Language Models</h4>
+            <p>Md Jahid Hasan, Cong Kha Nguyen, Yee Ling Boo, Hamed Jahani and Kok-Leong Ong</p>
+            <h3>No.38</h3>
+            <hr>
+            <h4>Sketching Uncertainty: Novel Approaches to Streaming Quantile Estimation in Financial Markets</h4>
+            <p>Quang-Vinh Dang</p>
+            <h3>No.43</h3>
+            <hr>
+            <h4>Unveiling Reliability in Multi-Omics Classification: Fusion, Calibration, and Dynamic Scaling</h4>
+            <p>Dang Khoa Nguyen, Duoyi Zhang, Md Abul Bashar and Richi Nayak</p>
+            <h3>No.46</h3>
+            <hr>
+            <h4>Stability Evaluation of Clusterings Across Time</h4>
+            <p>Sergej Korlakov, Nina A. Liebrand and Stefan Conrad</p>
+            <h3>No.48</h3>
+            <hr>
+            <h4>ETCOD: Embedding-Based Anomaly Detection and LLM-Driven Validation Framework for Knowledge Graphs</h4>
+            <p>Thi Thuy Nga Nguyen, Asara Senaratne and Leelanga Seneviratne</p>
+            <h3>No.50</h3>
+            <hr>
+            <h4>Regularizing StyleGAN with Inter-Resolution Residual Pattern Consistency via a Laplacian Pyramid</h4>
+            <p>Takahiro Koide and Keisuke Kameyama</p>
+            <h3>No.54</h3>
+            <hr>
+            <h4>Top-k Ranking with Exact Positional Fairness</h4>
+            <p>Nina A. Liebrand and Stefan Conrad</p>
+            <h3>No.63</h3>
+            <hr>
+            <h4>Mixup and Local-FOMA based Two-Phase Manifold Augmentation in Image Classification</h4>
+            <p>Takumi Shirahama and Keisuke Kameyama</p>
+            <h3>No.65</h3>
+            <hr>
+            <h4>BARE: Boundary-Aware with Resolution Enhancement for Tree Crown Delineation</h4>
+            <p>Attavit Wilaiwongsakul, Bin Liang, Wenfeng Jia, Bryan Zheng and Fang Chen</p>
+            <h3>No.66</h3>
+            <hr>
+            <h4>Evaluating Structural Preprocessing in RAG for Academic Curriculum Applications</h4>
+            <p>Gizem Intepe, Yingtong Liang and Laurence Park</p>
+            <h3>No.72</h3>
+            <hr>
+            <h4>Integrating Vision Transformers and Autoencoders for Interpretable Cancer Risk Assessment</h4>
+            <p>Ahmad Hussein, Mukesh Prasad, Ali Anaissi and Ali Braytee</p>
+            <h3>No.82</h3>
+            <hr>
+            <h4>From Burst to Routine: Mining Time-Compact Patterns from Sequential Dataset</h4>
+            <p>Khanh Luong, Daniel Angus, Yufan Kang, Abdul Obeid and Dan Tran</p>
+            <h3>No.89</h3>
+            <hr>
+            <h4>LightSkinNet: Lightweight CNN with Attention for Accurate, Mobile-Efficient Multiclass Skin Lesion Classification</h4>
+            <p>F M Javed Mehedi Shamrat, Xujuan Zhou, Mohd Yamani Idna Idris, Raj Gururajan and Ka Ching Chan</p>
+            <h3>No.90</h3>
+            <hr>
+            <h4>DriftSense: Adaptive Drift Detection with Incremental Hoeffding Trees for Real-Time Spatial Crowdsourcing</h4>
+            <p>Md Mujibur Rahman, Quazi Mamun, Michael Bewong and Md Zahidul Islam</p>
+            <h3>No.91</h3>
+            <hr>
+            <h4>A Parameter-free Method Tuning for Multi-scale Wildfire Images Retrieval Task</h4>
+            <p>Yue Zhang</p>
+            <h3>No.92</h3>
+            <hr>
+            <h4>NeuroPhysNet: A FitzHugh-Nagumo-Based Physics-Informed Neural Network Framework for Electroencephalograph (EEG) Analysis and Motor Imagery Classification</h4>
+            <p>Zhenyu Xia, Xinlei Huang, Yuantong Gu and Suvash Saha</p>
+            <h3>No.95</h3>
+            <hr>
+            <h4>A DenseNet-YOLOv8 Fusion Model for Intelligent Parasite Egg Detection and Classification</h4>
+            <p>Muhammad Bilal Zia, Xujuan Zhou, Raj Gururajan and Ka Ching Chan</p>
+            <h3>No.99</h3>
+            <hr>
+            <h4>Dynamic Meta-Learning Ensemble for Financial Forecasting</h4>
+            <p>Hanxue Yao and Irena Koprinska</p>
+            <h3>No.100</h3>
+            <hr>
+            <h4>Evaluating Multimodal Clinical Classification with Real and GAN generated Synthetic Data</h4>
+            <p>Suchit Patel, Manik Gupta and Mei-Tai Chu</p>
+          </div>
+
+          <h2>Application Track</h2>
+          <div class="paper-list">
+            <h3>No.11</h3>
+            <hr>
+            <h4>An AI-Driven Framework for Real-Time Reporting and Identification of Lost Cats</h4>
+            <p>Dezhou Zhang, Xiaodan Dong and Weidong Huang</p>
+            <h3>No.24</h3>
+            <hr>
+            <h4>Effective Missing-Data Imputation for Time Series with Seasonality and Causality</h4>
+            <p>Devesh Bhogal, Yanchang Zhao, Reena Kapoor, Tapas Biswas, Peter Toscas and Klaus Joehnk</p>
+            <h3>No.25</h3>
+            <hr>
+            <h4>Advancing Atayal Language Preservation with AI-Driven Multimodal Speech and Text Processing</h4>
+            <p>Jia-Lien Hsu and Wei-Yuan Li</p>
+            <h3>No.30</h3>
+            <hr>
+            <h4>Benchmarking Preprocessing and Integration Methods in Single-Cell Genomics</h4>
+            <p>Ali Anaissi, Seid Miad Zandavi, Weidong Huang, Junaid Akram, Basem Suleiman, Ali Braytee and Jie Hua</p>
+            <h3>No.31</h3>
+            <hr>
+            <h4>Towards Automated Differential Diagnosis of Skin Diseases Using Deep Learning and Imbalance-Aware Strategies</h4>
+            <p>Ali Anaissi, Ali Braytee, Weidong Huang, Junaid Akram, Alaa Farhat and Jie Hua</p>
+            <h3>No.33</h3>
+            <hr>
+            <h4>UniCausal: A Unified Approach to Causal Discovery from Hybrid Industrial Time Series and Events</h4>
+            <p>Zhen Zhao, Brian Erickson, Shantanu Chakraborty and Wei Liu</p>
+            <h3>No.47</h3>
+            <hr>
+            <h4>Dynamic Source Code Vulnerability Characteristics Selection for Enhanced Vulnerability Discover</h4>
+            <p>Abdur Rehman Khan, Yue Xu and Yuefeng Li</p>
+            <h3>No.56</h3>
+            <hr>
+            <h4>Causal Recommendation Method for Personalised Chemotherapy Optimisation in Breast Cancer</h4>
+            <p>Tuyen Vu, Thuc Duy Le, Ha Xuan Tran, Lin Liu, Jiuyong Li and Jia Tina Du</p>
+            <h3>No.74</h3>
+            <hr>
+            <h4>Machine Learning for Traffic Accident Prediction: Integrating Spatial and Behavioral Data for Road Safety Insights</h4>
+            <p>Sudarat Sukjaroen, Xiaodan Dong, S.T. Boris Choy and Weidong Huang</p>
+            <h3>No.77</h3>
+            <hr>
+            <h4>Modelling Financial Time Series of Returns and Covariance Matrices Using Time-Space Transformers</h4>
+            <p>Xiaodan Dong, Kittituch Wongwatcharapaiboon, Sugi Guanjing Lee, Jennifer S.K. Chan and Weidong Huang</p>
+            <h3>No.79</h3>
+            <hr>
+            <h4>Evaluating Cross-Lingual Classification Strategies Enabling Topic Discovery for Multilingual Social Media Data</h4>
+            <p>Deepak Uniyal, Md Abul Bashar and Richi Nayak</p>
+            <h3>No.83</h3>
+            <hr>
+            <h4>Visionary: Enhancing Visual Context for the Visually Impaired</h4>
+            <p>Pranav Powar and Amit Agarwal</p>
+            <h3>No.94</h3>
+            <hr>
+            <h4>Temporal Fusion of Biophysical and Climate Data: A Data-Driven Hybrid Learning Approach for Short-Term Aboveground Biomass Forecasting</h4>
+            <p>Han Xu, Thirunavukarasu Balasubramaniam and Richi Nayak</p>
+            <h3>No.101</h3>
+            <hr>
+            <h4>Precision to Costing: Budgeted Modelling for Customer Contact Prediction</h4>
+            <p>Ho Sing Tin, Richi Nayak and Darren Wraith</p>
+            <h3>No.102</h3>
+            <hr>
+            <h4>Defining Responsible AI: Contextual Insights Powered by LLMs</h4>
+            <p>Lucky Atamhenwan, Sangeetha Kutty and Lily D Li</p>
+            
+          </div> 
+           <div class="link" style="height: 180px;">
+            <p style="margin: 65px auto; font-size: larger;">Full papers will be available soon!</p>
+          </div>
+        </article>
+      </div>
+      <template-aside></template-aside>
+    </div>
+  </main>
+
+  <template-footer></template-footer>
+
 </body>
-
-<script>
-
-</script>
-
 </html>
