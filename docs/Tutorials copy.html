@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -31,7 +31,7 @@
     }
     .content-container { min-width: 0; }
 
-    /* Center & tidy speaker cards (kept from your page) */
+    /* Center & tidy speaker cards (optional, matches your theme) */
     .speakers {
       display: flex;
       flex-wrap: wrap;
@@ -47,53 +47,13 @@
       border-radius: 10px;
       box-shadow: 0 4px 10px rgba(0,0,0,0.08);
     }
-
-    /* --- Minimal, robust avatar fix + small font tweaks --- */
     .speaker img {
-      width: 160px;              /* fixed square frame */
-      aspect-ratio: 1 / 1;       /* ensures it's perfectly square */
-      height: auto;              /* let aspect-ratio control height */
-      object-fit: cover;         /* fill without distortion */
-      border-radius: 50%;        /* circle */
+      width: 160px;
+      height: 160px;
+      border-radius: 50%;
+      object-fit: cover;
       display: block;
       margin: 0 auto 12px;
-    }
-    /* If any inline width/height on <img> override these, add !important:
-       width:160px!important; aspect-ratio:1/1!important; height:auto!important; */
-
-    /* Slight font improvements (kept subtle) */
-    article > h1 { 
-      font-size: 1.35rem; 
-      line-height: 1.35; 
-      color: #0b2551; 
-      margin: 14px 0 8px; 
-      font-weight: 700;
-    }
-    .card h1 { 
-      font-size: 1.2rem; 
-      line-height: 1.35; 
-      color: #0b2551; 
-      margin: 0 0 10px; 
-      font-weight: 700;
-    }
-    .speaker h2 { 
-      font-size: 1.05rem; 
-      margin: 6px 0 6px; 
-      color: #0b2551; 
-      font-weight: 700; 
-    }
-    .speaker h6 { 
-      font-size: .9rem; 
-      line-height: 1.45; 
-      color: #334; 
-      margin: 4px 0; 
-      font-weight: 500; 
-    }
-    h4 { 
-      font-size: 1rem; 
-      color: #0b2551; 
-      margin: 12px 0 6px; 
-      font-weight: 700; 
     }
 
     @media (max-width: 1300px) {
@@ -126,11 +86,13 @@
       <div class="content-container">
         <article>
 
-          <!-- ===== Tutorial 1 ===== -->
+         
+          <!-- ===== Tutorial 2 ===== -->
           <h1>Tutorial 1, Day 2, 15:20–17:20 pm</h1>
           <div class="card">
             <h1>Data-Driven AI for Dynamic Service Ecosystems: From Intent Mining to Proactive Network Assurance</h1>
 
+            <!-- FIXED: all three speakers inside one .speakers wrapper -->
             <div class="speakers">
               <div class="speaker">
                 <p>
@@ -215,9 +177,9 @@
               Discipline Star and Young Researcher Award, he is also a certified Oracle and Sun Java professional. He has been an Infosys Campus
               Connect Partner Faculty and WIPRO Certified Trainer, mentoring students for industry readiness.</p>
           </div>
-
           <h1>Tutorial 2, Day 3, 13:00–15:00 pm</h1>
           <div class="card">
+            <!-- FIXED: closed with </h1> not </h6> -->
             <h1>Trustworthy Machine Learning for Real-Time Operation and Control of Renewable Power Systems: A Knowledge-Guided Approach</h1>
 
             <div class="speakers">
@@ -279,6 +241,7 @@
               systems and the design of reliable human–robot interaction systems to enhance healthcare, rehabilitation, and
               assistive technologies.</p>
           </div>
+
 
         </article>
       </div>
