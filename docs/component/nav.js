@@ -35,6 +35,7 @@ templateNavDoc.documentElement.innerHTML = `
                 <li><a href="./Accepted Papers.html">Program<i class="arrow down"></i></a>
                     <ul class="submenu">
                         <li><a href="./Conference Program.html">Conference Program Overview</a></li>
+                        <li><a href="./Industry Invited Session.html">Industry Invited Session</a></li>
                         <li><a href="./Paper Presentation Schedule.html">Paper Presentation Schedule</a></li>
                         <li><a href="./Tutorials.html">Tutorials</a></li>
                          <li><a href="./Doctoral Consortium.html">Doctoral Consortium</a></li>
