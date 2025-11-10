@@ -32,7 +32,7 @@ templateNavDoc.documentElement.innerHTML = `
                     </ul>
                 </li>
 
-                <li><a href="./Accepted Papers.html">Program<i class="arrow down"></i></a>
+                <li><a href="./Conference Program.html">Program<i class="arrow down"></i></a>
                     <ul class="submenu">
                         <li><a href="./Conference Program.html">Conference Program Overview</a></li>
                         <li><a href="./Industry Invited Session.html">Industry Invited Session</a></li>
