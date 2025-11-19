@@ -1,18 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <meta http-equiv="Content-Type" contect="text/html">
+  <meta http-equiv="Content-Type" content="text/html">
   <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
   <meta http-equiv="Pragma" content="no-cache" />
   <meta http-equiv="Expires" content="0" />
-
   <link rel="icon" href="./media/AusDM-square-Logo2.png" type="image/x-icon">
-
-  <!-- your site css/js -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="./css/header.css">
   <link rel="stylesheet" href="./css/article.css">
@@ -21,36 +16,32 @@
   <script src="./component/nav.js"></script>
   <script src="./component/aside.js"></script>
   <script src="./component/footer.js"></script>
-
   <title>The 23rd Australasian Data Science and Machine Learning Conference (AusDM'25)</title>
-
   <style>
-    /* Program-only styles; header/footer etc. come from your site CSS */
+    /* Same beautiful style as your original page */
     .program { margin: 0 0 2rem 0; }
     .program .day-title h1 { margin-top: 1.25rem; }
-
     .legend { display:flex; flex-wrap:wrap; gap:.5rem; margin:.75rem 0 1.25rem; }
     .legend .chip { font-size:.9rem; padding:.25rem .6rem; border-radius:999px; background:#eef5ff; color:#044; border:1px solid #cfe2ff; }
-
     .program-table { width:100%; border-collapse:separate; border-spacing:0; background:#fff; border-radius:14px; overflow:hidden; box-shadow:0 8px 26px rgba(9,30,66,.08); }
     .program-table thead th { background:#00457d; color:#fff; font-weight:600; letter-spacing:.02em; font-size:.9rem; text-transform:uppercase; padding:12px 14px; }
     .program-table td { padding:12px 14px; border-bottom:1px solid #e7eef7; vertical-align:top; }
     .program-table tr:last-child td { border-bottom:none; }
-
     .time { white-space:nowrap; font-weight:700; color:#00345f; width:160px; }
     .session-title { font-weight:600; color:#0b2551; font-size:1rem; }
     .venue { display:inline-block; margin-top:6px; padding:2px 8px; border-radius:999px; border:1px solid #d8e4f4; background:#f0f6ff; color:#084; font-size:.8rem; }
-    .chair { color:#335; font-size:.9rem; margin-top:4px }
-    .parallel { display:inline-block; margin-left:.4rem; font-size:.75rem; padding:2px 8px; border-radius:6px; border:1px solid #d8e4f4; background:#eef5ff; color:#00345f }
+    .chair { color:#335; font-size:.9rem; margin-top:4px; }
+    .parallel { display:inline-block; margin-left:.4rem; font-size:.75rem; padding:2px 8px; border-radius:6px; border:1px solid #d8e4f4; background:#eef5ff; color:#00345f; }
 
-    /* Color coding (match Word colors) */
-    tr.keynote td     { background:#FFF9E6; } /* yellow */
-    tr.research td    { background:#E6F0FF; } /* light blue */
-    tr.application td { background:#EAF9F0; } /* soft green */
-    tr.panel td       { background:#FFF3E6; } /* pale orange */
-    tr.social td      { background:#F2E6FF; } /* light purple */
-    tr.tutorial td    { background:#E6FAFF; } /* soft cyan */
-    tr.break td       { background:#F8F9FA; color:#555; } /* very light gray */
+    /* Color coding – identical to original */
+    tr.keynote td    { background:#FFF9E6; } /* yellow */
+    tr.research td   { background:#E6F0FF; } /* light blue */
+    tr.application td{ background:#EAF9F0; } /* soft green */
+    tr.industry td   { background:#EAF9F0; } /* same as application for invited talks */
+    tr.panel td      { background:#FFF3E6; } /* pale orange */
+    tr.social td     { background:#F2E6FF; } /* light purple */
+    tr.tutorial td   { background:#E6FAFF; } /* soft cyan */
+    tr.break td      { background:#F8F9FA; color:#555; } /* light gray */
 
     @media (max-width: 720px){
       .program-table thead{ display:none; }
@@ -58,20 +49,18 @@
       .program-table td{ display:block; border:none; padding:8px 12px; }
       .program-table td.time{ font-size:.95rem; padding-top:12px; color:#00457d; }
     }
-
-    /* Optional: nicer print */
     @media print{
       header, template-nav, template-aside, template-footer { display: none !important; }
       body { background:#fff; }
       .program-table { box-shadow:none; }
       .program-table thead th { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
-      tr.keynote td, tr.research td, tr.application td, tr.panel td, tr.social td, tr.tutorial td, tr.break td {
+      tr.keynote td, tr.research td, tr.application td, tr.industry td, tr.panel td,
+      tr.social td, tr.tutorial td, tr.break td {
         -webkit-print-color-adjust: exact; print-color-adjust: exact;
       }
     }
   </style>
 </head>
-
 <body>
   <header>
     <template-nav page-name="Program"></template-nav>
@@ -98,15 +87,12 @@
           <div class="day-title">
             <h1>Conference Program Overview</h1>
           </div>
-
           <div class="legend">
             <div class="chip">Default venue: <b>QUT Gardens Point · P Block</b></div>
             <div class="chip">Times in <b>AEST</b></div>
-            <!-- <div class="chip"><b>Parallel</b> badge marks concurrent items</div> -->
-            <!-- <div class="chip">Colors — Keynote: yellow · Research: blue · Application: green · Panel: orange · Social: purple · Tutorial: cyan · Breaks: grey</div> -->
           </div>
 
-          <!-- ========================= DAY 1 ========================= -->
+          <!-- DAY 1 -->
           <h2>Day 1 — Wednesday, 26 November 2025</h2>
           <table class="program-table" aria-label="Day 1 Program">
             <thead>
@@ -118,88 +104,62 @@
                 <td class="session-title">Registration Open</td>
                 <td><span class="venue">Venue: P Block Foyer</span></td>
               </tr>
-
               <tr>
                 <td class="time">09:00–09:10</td>
                 <td class="session-title">Opening & Acknowledgement of Country</td>
-                <td>Prof Richi Nayak, General Chair (QUT) <span class="venue">Venue: P413</span></td>
+                <td>Prof Richi Nayak, General Chair (QUT)<br><span class="venue">Venue: P413</span></td>
               </tr>
-
               <tr class="keynote">
                 <td class="time">09:10–10:10</td>
                 <td class="session-title">Keynote 1: Bias in Humans and AI – What To Do About It?</td>
-                <td>
-                  Prof Gianluca Demartini (University of Queensland)
-                  <div class="chair">Session Chair: Richi Nayak</div>
-                  <span class="venue">Venue: P413</span>
-                </td>
+                <td>Prof Gianluca Demartini (University of Queensland)<br><div class="chair">Session Chair: Richi Nayak</div><span class="venue">Venue: P413</span></td>
               </tr>
-
               <tr class="break">
                 <td class="time">10:10–10:30</td>
                 <td class="session-title">Morning Tea</td>
                 <td><span class="venue">Venue: Foyer</span></td>
               </tr>
-
               <tr class="research">
                 <td class="time">10:30–12:30</td>
                 <td class="session-title">Session 1 – Research Track: Federated, Adaptive, and Trustworthy Machine Learning</td>
-                <td>
-                  <div class="chair">Session Chair: TBA</div>
-                  <span class="venue">Venue: P413</span>
-                </td>
+                <td><div class="chair">Session Chair: A/Prof Quang Vinh Nguyen</div><span class="venue">Venue: P413</span></td>
               </tr>
-
               <tr class="break">
                 <td class="time">12:30–13:30</td>
                 <td class="session-title">Lunch</td>
                 <td><span class="venue">Venue: Foyer</span></td>
               </tr>
-
               <tr class="keynote">
                 <td class="time">13:30–14:30</td>
                 <td class="session-title">Keynote 2: Enabling Faithful Large Language Model Reasoning with Knowledge Graphs</td>
-                <td>
-                  Prof Shirui Pan (Griffith University)
-                  <div class="chair">Session Chair: TBA</div>
-                  <span class="venue">Venue: P413</span>
-                </td>
+                <td>Prof Shirui Pan (Griffith University)<br><div class="chair">Session Chair: Prof Richi Nayak</div><span class="venue">Venue: P413</span></td>
               </tr>
-
               <tr class="application">
                 <td class="time">14:30–16:15</td>
                 <td class="session-title">Session 2 – Application Track: Environment, information security, and productivity</td>
-                <td>
-                  <div class="chair">Session Chair: TBA</div>
-                  <span class="venue">Venue: P413</span>
-                </td>
+                <td><div class="chair">Session Chair: Dr Yanchang Zhao</div><span class="venue">Venue: P413</span></td>
               </tr>
-
               <tr class="break">
                 <td class="time">16:15–16:45</td>
                 <td class="session-title">Afternoon Tea</td>
                 <td><span class="venue">Venue: Foyer</span></td>
               </tr>
-
               <tr class="panel">
                 <td class="time">16:45–17:45</td>
                 <td class="session-title">Panel A: AI in Education</td>
-                <td>
-                  <span class="venue">Venue: P6 Atrium</span>
-                  <div class="chair">Chair: Dr Sangeetha Kutty (CQ University)</div>
+                <td><div class="chair">Chair: Dr Sangeeth Kutty (CQ University)</div>
                   <div class="chair">Moderator: Assoc. Prof. Ritesh Chugh (CQ University)</div>
-                </td>
+                  <span class="venue">Venue: P6 Atrium</span></td>
               </tr>
-
               <tr class="social">
                 <td class="time">18:00–19:30</td>
                 <td class="session-title">Social Networking Session / Welcome Reception</td>
-                <td><span class="venue">Venue: S1012(S Block)</span></td>
+                <td><span class="venue">Venue: QUT GP · S Block · S1012</span></td>
               </tr>
             </tbody>
           </table>
 
-          <!-- ========================= DAY 2 ========================= -->
+          <!-- DAY 2 -->
           <h2>Day 2 — Thursday, 27 November 2025</h2>
           <table class="program-table" aria-label="Day 2 Program">
             <thead>
@@ -211,109 +171,70 @@
                 <td class="session-title">Registration Open</td>
                 <td><span class="venue">Venue: Foyer</span></td>
               </tr>
-
               <tr class="keynote">
                 <td class="time">09:00–10:00</td>
                 <td class="session-title">Keynote 3: The Role of Priors in Bayesian Analysis</td>
-                <td>
-                  Distinguished Professor Kerrie Mengersen (QUT)
-                  <div class="chair">Session Chair: Richi Nayak</div>
-                  <span class="venue">Venue: P413</span>
-                </td>
+                <td>Distinguished Professor Kerrie Mengersen (QUT)<br><div class="chair">Session Chair: Richi Nayak</div><span class="venue">Venue: P413</span></td>
               </tr>
-
               <tr class="break">
                 <td class="time">10:00–10:20</td>
                 <td class="session-title">Morning Tea</td>
                 <td><span class="venue">Venue: Foyer</span></td>
               </tr>
-
-              <tr class="application">
+              <tr class="industry">
                 <td class="time">10:20–11:00</td>
-                <td class="session-title">Industry Invited Talk: Breaking New Ground in AI Marketing: The Journey of a Female Founder Building Autonomous Marketing Strategy with Robotic Marketer</td>
-                <td>
-                  Mellissah Smith (Robotic Marketer)
-                  <div class="chair">Chair: TBD</div>
-                  <span class="venue">Venue: P413</span>
-                </td>
+                <td class="session-title">Industry Invited Talk: Breaking New Ground in AI Marketing …</td>
+                <td>Mellissah Smith (Robotic Marketer)<br><div class="chair">Chair: Dr Khanh Luong</div><span class="venue">Venue: P413</span></td>
               </tr>
-
               <tr class="panel">
                 <td class="time">11:00–12:00</td>
                 <td class="session-title">Panel B: Women in STEM</td>
-                <td>
-                  <span class="venue">Venue: P6 Atrium</span>
-                  <div class="chair">Chair & Moderator: Dr Sangeeth Kutty (CQUniversity)</div>
-                </td>
+                <td><div class="chair">Chair & Moderator: Dr Sangeeth Kutty (CQUniversity)</div><span class="venue">Venue: P6 Atrium</span></td>
               </tr>
-
               <tr class="break">
                 <td class="time">12:00–13:00</td>
                 <td class="session-title">Lunch</td>
                 <td><span class="venue">Venue: Foyer</span></td>
               </tr>
-
               <tr class="research">
                 <td class="time">13:00–15:00</td>
                 <td class="session-title">Session 3 – Research Track: Deep Learning Fusion and Vision</td>
-                <td>
-                  <div class="chair">Session Chair: TBA</div>
-                  <span class="venue">Venue: P413</span>
-                </td>
+                <td><div class="chair">Session Chair: Prof Yuefeng Li</div><span class="venue">Venue: P413</span></td>
               </tr>
-
               <tr class="break">
                 <td class="time">15:00–15:20</td>
                 <td class="session-title">Afternoon Tea</td>
                 <td><span class="venue">Venue: Foyer</span></td>
               </tr>
-
               <tr class="application">
-                <td class="time">15:20–17:00</td>
+                <td class="time">15:20–17:20</td>
                 <td class="session-title">Session 4 – Application Track: Health and Social Good Paper Presentations</td>
-                <td>
-                  <div class="chair">Session Chair: TBA</div>
-                  <span class="venue">Venue: P413</span>
-                </td>
+                <td><div class="chair">Session Chair: A/Prof Paul Kwan</div><span class="venue">Venue: P413</span></td>
               </tr>
-
               <tr class="tutorial">
                 <td class="time">15:20–17:20</td>
                 <td class="session-title">Tutorial 1 – Data-Driven AI for Dynamic Service Ecosystems <span class="parallel">Parallel</span></td>
-                <td>
-                  Assoc. Prof. Priya K, Karthik S & Prof M. Prakash (SRM Institute, India)
-                  <div class="chair">Session Chair: Prof Susan Zhou</div>
-                  <span class="venue">Venue: P410</span>
-                </td>
+                <td>Assoc. Prof. Priya K, Karthik S & Prof M. Prakash (SRM Institute, India)<br><div class="chair">Session Chair: Dr Alan Woodley</div><span class="venue">Venue: P410</span></td>
               </tr>
-
               <tr class="research">
                 <td class="time">15:20–17:20</td>
                 <td class="session-title">Doctoral Symposium <span class="parallel">Parallel</span></td>
-                <td>
-                  <div class="chair">Session Chair: Jolin Qu</div>
-                  <span class="venue">Venue: P413</span>
-                </td>
+                <td><div class="chair">Session Chair: Jolin Qu</div><span class="venue">Venue: P413 or breakout room</span></td>
               </tr>
-
               <tr class="break">
                 <td class="time">17:30–17:50</td>
                 <td class="session-title">Getting to the Conference Dinner Venue</td>
                 <td></td>
               </tr>
-
               <tr class="social">
                 <td class="time">18:00–21:00</td>
                 <td class="session-title">Conference Dinner Cruise</td>
-                <td>
-                  Best Paper Awards Announcement
-                  <span class="venue">Venue: Off-site</span>
-                </td>
+                <td>Best Paper Awards Announcement<br><span class="venue">Venue: Off-site</span></td>
               </tr>
             </tbody>
           </table>
 
-          <!-- ========================= DAY 3 ========================= -->
+          <!-- DAY 3 -->
           <h2>Day 3 — Friday, 28 November 2025</h2>
           <table class="program-table" aria-label="Day 3 Program">
             <thead>
@@ -325,99 +246,59 @@
                 <td class="session-title">Registration Open</td>
                 <td><span class="venue">Venue: Foyer</span></td>
               </tr>
-
-              <tr class="application">
+              <tr class="industry">
                 <td class="time">09:00–09:40</td>
                 <td class="session-title">Industry Invited Talk</td>
-                <td>
-                  Dr Sankalp Khanna (CSIRO e-Health Research Centre)
-                  <div class="chair">Session Chair: TBA</div>
-                  <span class="venue">Venue: P413</span>
-                </td>
+                <td>Dr Sankalp Khanna (CSIRO e-Health Research Centre)<br><div class="chair">Session Chair: Prof Richi Nayak</div><span class="venue">Venue: P413</span></td>
               </tr>
-
-              <tr class="application">
+              <tr class="industry">
                 <td class="time">09:40–10:20</td>
                 <td class="session-title">Industry Invited Talk</td>
-                <td>
-                  Dr Kenny Sabir (AgriWebb)
-                  <div class="chair">Session Chair: TBA</div>
-                  <span class="venue">Venue: P413</span>
-                </td>
+                <td>Dr Kenny Sabir (AgriWebb)<br><div class="chair">Session Chair: Dr Tej Bahadur Shahi</div><span class="venue">Venue: P413</span></td>
               </tr>
-
               <tr class="break">
                 <td class="time">10:20–10:45</td>
                 <td class="session-title">Morning Tea</td>
                 <td><span class="venue">Venue: Foyer</span></td>
               </tr>
-
               <tr class="panel">
                 <td class="time">10:45–12:00</td>
                 <td class="session-title">Panel C: Are We in the Right Direction?</td>
-                <td>
-                  Bruce Colstick (Queensland Government Consumer and Digital Group), Simon Townsend (QLD Health),
-                  Shane Muller (Safe Watch), Truin Chapman/Benson Choy (QLD Health)
-                  <div class="chair">Chair & Moderator: Dr Anton Lord (QLD Health)</div>
-                  <span class="venue">Venue: P6 Atrium</span>
-                </td>
+                <td>Bruce Colstick, Simon Townsend, Shane Muller, Truin Chapman/Benson Choy<br><div class="chair">Chair & Moderator: Dr Anton Lord (QLD Health)</div><span class="venue">Venue: P6 Atrium</span></td>
               </tr>
-
               <tr class="break">
                 <td class="time">12:00–13:00</td>
                 <td class="session-title">Lunch</td>
                 <td><span class="venue">Venue: Foyer</span></td>
               </tr>
-
               <tr class="research">
                 <td class="time">13:00–15:00</td>
                 <td class="session-title">Session 5 – Research & Application Track Paper Presentations (8 papers)</td>
-                <td>
-                  <div class="chair">Session Chair: TBA</div>
-                  <span class="venue">Venue: P413</span>
-                </td>
+                <td><div class="chair">Session Chair: Dr Asara Senaratne</div><span class="venue">Venue: P413</span></td>
               </tr>
-
               <tr class="tutorial">
                 <td class="time">13:00–15:00</td>
                 <td class="session-title">Tutorial 2 – Trustworthy ML for Real-Time Operation & Control of Renewable Power Systems <span class="parallel">Parallel</span></td>
-                <td>
-                  Dr Yuchen Zhang (QUT) & Dr Yuting Zhu (UniSQ)
-                  <div class="chair">Session Chair: Dr Alan Woodley</div>
-                  <span class="venue">Venue: P410</span>
-                </td>
+                <td>Dr Yuchen Zhang (QUT) & Dr Yuting Hu (UniSQ)<br><div class="chair">Session Chair: Prof Susan Zhou</div><span class="venue">Venue: P410</span></td>
               </tr>
-
-              <tr class="application">
+              <tr class="industry">
                 <td class="time">13:00–15:00</td>
                 <td class="session-title">Invited Industry Session 1 — Adoption of AI in Government <span class="parallel">Parallel</span></td>
-                <td>
-                  Speakers: Bruce Colstick (Queensland Government Consumer and Digital Group), Sankalp Khanna,
-                  Luke Hearne, Rob Chatterjee, Anton Lord, Simon Townsend
-                  <div class="chair">Session Chair: TBA</div>
-                  <span class="venue">Venue: P413</span>
-                </td>
+                <td>Speakers: Bruce Colstick, Sankalp Khanna, Luke Hearne, Rob Chatterjee, Anton Lord, Simon Townsend<br><div class="chair">Session Chair: Joy Wang</div><span class="venue">Venue: P413</span></td>
               </tr>
-
               <tr class="break">
                 <td class="time">15:00–15:30</td>
                 <td class="session-title">Networking Coffee Chat / Afternoon Tea</td>
                 <td><span class="venue">Venue: Foyer</span></td>
               </tr>
-
-              <tr class="application">
+              <tr class="industry">
                 <td class="time">15:30–17:00</td>
                 <td class="session-title">Invited Industry Session 2 — AI driving changes in industry</td>
-                <td>
-                  Speakers: Shane Muller (Safe Watch), Lin Chen (Ampol), Cuan Naidoo, Jess Moore (Gurriny Health Pods)
-                  <div class="chair">Session Chair: TBA</div>
-                  <span class="venue">Venue: P413</span>
-                </td>
+                <td>Speakers: Shane Muller, Lin Chen, Cuan Naidoo, Jess Moore<br><div class="chair">Session Chair: Dr Anton Lord</div><span class="venue">Venue: P413</span></td>
               </tr>
-
               <tr>
                 <td class="time">17:00</td>
-                <td class="session-session-title">Conference Closure</td>
+                <td class="session-title">Conference Closure</td>
                 <td><span class="venue">Venue: P413</span></td>
               </tr>
             </tbody>
@@ -427,7 +308,6 @@
       <template-aside></template-aside>
     </div>
   </main>
-
   <template-footer></template-footer>
 </body>
 </html>
