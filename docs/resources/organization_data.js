@@ -13,12 +13,12 @@ const organizationData = [
     ]},
     {"groupName":"Program Chairs: Application Track",
     "groupItems":[
-        ["A/Prof Paul Kwan","Central Queensland University","PaulKwan.png"],
+        ["A/Prof Paul Kwan","CQUniversity","PaulKwan.png"],
         ["Dr Yanchang Zhao","Data61, CSIRO", "YanchangZhao.jpg"],
     ]},
     {"groupName":"Industry Chairs",
     "groupItems":[
-        ["Dr Anton Lord","Queensland Health","AntonLord.jpg"],
+        ["Dr Anton Lord","Metro South Addiction and Mental Health","AntonLord.jpg"],
         // ["Diana Benavides Prado","The University of Auckland"],
     ]},
     // {"groupName":"Industry Chair",
@@ -37,7 +37,7 @@ const organizationData = [
     ]},
     {"groupName":"Special Session Chair",
     "groupItems":[
-        ["Dr Sangeetha Kutty","Central Queensland University", "SangeethaKutty.png"],
+        ["Dr Sangeetha Kutty","CQUniversity", "SangeethaKutty.png"],
     ]},
     {"groupName":"Publication Chair",
     "groupItems":[
