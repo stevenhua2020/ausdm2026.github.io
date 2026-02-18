@@ -5,7 +5,7 @@ const templateAsideDoc = document.implementation.createHTMLDocument();
 templateAsideDoc.documentElement.innerHTML = `
 <template id="template-aside">
     <aside>
-        <div id="countdown">
+        <!--<div id="countdown">
             <h4>Days until Conference</h4>
             <div id="timer">
                 <div><p><span id="days"> 000 </span></p> <p>Day</p></div> 
@@ -16,7 +16,13 @@ templateAsideDoc.documentElement.innerHTML = `
                 <div><p><span>:</span></p><p>-</p></div> 
                 <div><p><span id="seconds"> 00 </span> </p> <p>Sec</p> </div>
             </div>
+        </div>-->
+
+        <div id="countdown">
+            <h4>Conference has ended</h4>
+            <h5>Thanks for your participation. See you at AusDM 2026 in Sydney!</h5>
         </div>
+
 
         <div id="Keydates">
             <h4>Important Dates (AoE 11.59pm)</h4>
