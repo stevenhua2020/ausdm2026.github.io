@@ -20,6 +20,7 @@ templateNavDoc.documentElement.innerHTML = `
                         <li><a href="./Call for Papers.html">Call for Papers</a></li>
                         <li><a href="./Call for Doctoral Consortium.html">Call for Doctoral Consortium</a></li>
                         <li><a href="./Submissions.html">Submissions</a></li>
+                        <li><a href="./Publications.html">Publication</a></li>
                         <!-- <li><a href="./Call for Tutorials and Workshops.html">Call for Tutorials and Workshops</a></li>
                         <li><a href="./Special Sessions.html">Special Sessions</a></li> -->
                     </ul>
