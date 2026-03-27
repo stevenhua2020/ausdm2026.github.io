@@ -19,23 +19,28 @@ templateAsideDoc.documentElement.innerHTML = `
         </div>-->
 
         <div id="countdown">
-            <h4>Conference has ended</h4>
-            <h5>Thanks for your participation. See you at AusDM 2026 in Sydney!</h5>
+            <h4>AusDM'26</h4>
+            <h5>See you at AusDM 2026 in Sydney!</h5>
         </div>
 
 
         <div id="Keydates">
             <h4>Important Dates (AoE 11.59pm)</h4>
+            <h5>1) Research and Application Tracks</h5>
             <ul>
-                <li>Abstract submission: <span style="text-decoration: line-through;">10 Aug 25</span> <span style="color:rgb(243, 25, 25); font-weight:700;"> 17 Aug 25</span></li>
-                <li>Paper submission: <span style="text-decoration: line-through;">17 Aug 25</span> <span style="color:rgb(243, 25, 25); font-weight:700;">24 Aug 25</span></li>
-                <li>Paper Notification:  <span style="text-decoration: line-through;">7 Sept 25</span> <span style="color:rgb(243, 25, 25); font-weight:700;"> 21 Sept 25 </span></li>
-                <li>Camera-Ready Submission: <span style="text-decoration: line-through;">21 Sept 25</span> <span style="color:rgb(243, 25, 25); font-weight:700;"> 5 Oct 25 </span></li>
-                <!-- <li>Tutorial/ Workshop Proposal Submission: Sunday 18 August, 2024</li>
-                <li>Tutorial/ Workshop Proposal Notification: Sunday 15 September, 2024</li> -->
-                <!-- <li>Doctoral Consortium Submission: Sunday 1 September, 2024</li>
-                <li>Doctoral Consortium Notification: Sunday 29 September, 2024</li> -->
-                <li>Author Registration: <span style="text-decoration: line-through;">21 Sept 25</span> <span style="color:rgb(243, 25, 25); font-weight:700;"> 5 Oct 25 </span></li>
+                <li>Abstract submission: 12 July 26</span></li>
+                <li>Paper submission: 19 July 26</span></li>
+                <li>Paper Notification: 17 Aug 26 </span></li>
+                <li>Camera-Ready Submission: 06 Sept 26 </span></li>
+            </ul>
+            <h5>2) Late-Breaking Work Track</h5>
+            <ul>
+                <li>Paper submission: 23 Aug 26</li>
+                <li>Paper Notification: 14 Sept 26</li>
+                <li>Camera-Ready Submission: 21 Sept 26</li>
+            </ul>
+            <ul>
+                <li>Conference Date: 02–04 Dec 26</li>
             </ul>
         </div>
     </aside>
