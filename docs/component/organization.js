@@ -142,27 +142,57 @@ class TemplateOrganizationGroup extends HTMLElement {
 
     }
 
-    setInfo(rootPath, groupName,groupItems) {
+setInfo(rootPath, groupName, groupItems) {
         
-        const groupElem = this.shadow.querySelector('[group]');
-        const groupNameElem = this.shadow.querySelector('[group-name]');
-        
-        groupNameElem.textContent = groupName;
-        groupItems.forEach(item => {
+    const groupElem = this.shadow.querySelector('[group]');
+    const groupNameElem = this.shadow.querySelector('[group-name]');
+    
+    groupNameElem.textContent = groupName;
+
+    groupItems.forEach(item => {
         const name = item[0];
         const affiliation = item[1];
-        const imageFile = item[2] ?? null;  // optional 3rd field
+        const imageFile = item[2] ?? null;
+        const email = item[3] ?? null;
 
         const organizationItem = document.createElement('template-organization-item');
         groupElem.appendChild(organizationItem);
 
         const srcPath = rootPath + (imageFile ?? "default.jpg");
         organizationItem.setInfo(srcPath, name, affiliation);
+
+        // 🔹 Safe async modification
+        queueMicrotask(() => {
+            if (!email) return;
+
+            const shadow = organizationItem.shadowRoot;
+            const img = shadow.querySelector('[profile]');
+            const nameElem = shadow.querySelector('[name]');
+
+            if (!img || !nameElem) return;
+
+            // Image clickable
+            const imgLink = document.createElement('a');
+            imgLink.href = "mailto:" + email;
+            imgLink.title = "Email " + name;
+
+            img.parentNode.replaceChild(imgLink, img);
+            imgLink.appendChild(img);
+
+            // Name clickable
+            const nameLink = document.createElement('a');
+            nameLink.href = "mailto:" + email;
+            nameLink.textContent = name;
+            nameLink.style.textDecoration = "none";
+            nameLink.style.color = "inherit";
+
+            nameElem.innerHTML = "";
+            nameElem.appendChild(nameLink);
+        });
+
     });
-    }
-
 }
-
+    
 customElements.define(TemplateOrganizationGroup.TAG_NAME, TemplateOrganizationGroup);
 
 
