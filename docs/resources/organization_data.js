@@ -1,66 +1,96 @@
 const organizationData = [
-    {"groupName":"General Chairs",
-    "groupItems":[
-        // ["Yun Sing Koh","The University of Auckland"],
-        ["Prof Richi Nayak","Queensland University of Technology", "RichiNayak.jpg"],
-        ["Dr Yee Ling Boo","RMIT University", "YeeLingBoo.jpg"]
-    ]},
-    {"groupName":"Program Chairs: Research Track",
-    "groupItems":[
-        ["Prof Yuefeng Li","Queensland University of Technology","YuefengLi.jpg"],
-        ["A/Prof Quang Vinh Nguyen","University of Western Sydney", "QuangVinhNguyen.png"],
-        // ["Yanchang Zhao","Data61, CSIRO"],
-    ]},
-    {"groupName":"Program Chairs: Application Track",
-    "groupItems":[
-        ["A/Prof Paul Kwan","CQUniversity","PaulKwan.png"],
-        ["Dr Yanchang Zhao","Data61, CSIRO", "YanchangZhao.jpg"],
-    ]},
-    {"groupName":"Industry Chairs",
-    "groupItems":[
-        ["Dr Anton Lord","Metro South Addiction and Mental Health","AntonLord.jpg"],
-        // ["Diana Benavides Prado","The University of Auckland"],
-    ]},
-    // {"groupName":"Industry Chair",
-    // "groupItems":[
-    //     ["Khanh Luong","Queensland University of Technology and Charles Sturt University"],
-    // ]},
-    {"groupName":"Tutorial / Workshop Chairs ",
-    "groupItems":[
-        ["Prof Xujuan Zhou (Susan)","University of Southern Queensland","XujuanZhou.jpg"],
-        ["Dr Alan Woodley","Queensland University of Technology","AlanWoodley.png"],
-    ]},
-    {"groupName":"Doctoral Consortium Chairs",
-    "groupItems":[
-        ["Dr Zhonglin Qu (Jolin)","University of Western Sydney","ZhonglinQu.jpg"],
-        ["Dr Thiru Balasubramaniam","Queensland University of Technology","ThiruBalasubramaniam.jpg"]
-    ]},
-    {"groupName":"Special Session Chair",
-    "groupItems":[
-        ["Dr Sangeetha Kutty","CQUniversity", "SangeethaKutty.png"],
-    ]},
-    {"groupName":"Publication Chair",
-    "groupItems":[
-        ["Dr Yee Ling Boo","RMIT University", "YeeLingBoo.jpg"],
-    ]},
-    {"groupName":"Publicity Chair",
-    "groupItems":[
-        ["Dr Asara Senaratne","Flinders University", "AsaraSenaratne.jpg"]
-    ]},
-    {"groupName":"Local Organising Chairs",
-    "groupItems":[
-        ["Dr Khanh Luong","Queensland University of Technology","KhanhLuong.jpg"],
-        ["Dr Tej Bahadur Shahi","Queensland University of Technology", "TejBahadur.jpg"]
-    ]},
-    {"groupName":"Web Chair",
-    "groupItems":[
-        ["Dr Md Abul Bashar","Queensland University of Technology","MdBashar.jpg"],
-         ["Yue Wang (Joy)","Queensland University of Technology", "JoyWang.jpg"]
-    ]},
-    // {"groupName":"Sponsorship Chair",
-    // "groupItems":[
-    //     ["Robert Shen","RACE Hub, <br> RMIT University"]
-    // ]},
-]
-    
 
+{
+    groupName: "Conference Chairs",
+    groupItems: [
+        ["Tony Huang", "University of Technology Sydney", "xxx.jpg", "Weidong.Huang@uts.edu.au"],
+        ["Quang Vinh Nguyen", "Western Sydney University", "xxx.jpg", "Q.Nguyen@westernsydney.edu.au"],
+        ["Diana Benavides Prado", "Queen Mary University of London", "xxx.jpg", "d.benavidesprado@qmul.ac.uk"]
+    ]
+},
+
+{
+    groupName: "Steering Committee Chairs",
+    groupItems: [
+        ["Yun Sing Koh", "The University of Auckland", "xxx.jpg"],
+        ["Richi Nayak", "Queensland University of Technology", "xxx.jpg"],
+        ["Yanchang Zhao", "Data61, CSIRO", "xxx.jpg"]
+    ]
+},
+
+{
+    groupName: "Program Chairs (Research Track)",
+    groupItems: [
+        ["Ji Zhang", "University of Southern Queensland", "xxx.jpg", "ji.zhang@unisq.edu.au"],
+        ["Xiangmin Zhou", "RMIT University", "xxx.jpg", "xiangmin.zhou@rmit.edu.au"]
+    ]
+},
+
+{
+    groupName: "Program Chairs (Application Track)",
+    groupItems: [
+        ["Sevvandi Kandanaarachchi", "Data61, CSIRO", "xxx.jpg", "sevvandi.kandanaarachchi@data61.csiro.au"],
+        ["Md Rafiqul Islam", "Charles Darwin University", "xxx.jpg", "mdrafiqul.islam@cdu.edu.au"]
+    ]
+},
+
+{
+    groupName: "Program Chairs (Late-Breaking Work)",
+    groupItems: [
+        ["Ali Braytee", "University of Technology Sydney", "xxx.jpg"],
+        ["Jolin Qu", "Western Sydney University", "xxx.jpg", "zhonglin.qu@uts.edu.au"]
+    ]
+},
+
+{
+    groupName: "Doctoral Consortium Chairs",
+    groupItems: [
+        ["TBA", "", "xxx.jpg"]
+    ]
+},
+
+{
+    groupName: "Workshops / Special Sessions Chairs",
+    groupItems: [
+        ["Ali Anaissi", "University of Technology Sydney", "xxx.jpg", "Ali.Anaissi@uts.edu.au"]
+    ]
+},
+
+{
+    groupName: "Tutorial Chairs",
+    groupItems: [
+        ["Mel Indratheb", "University of Technology Sydney", "xxx.jpg", "Melanie.Indratheb@uts.edu.au"]
+    ]
+},
+
+{
+    groupName: "Industry Chair",
+    groupItems: [
+        ["Tony Nolan", "G3N1U5 Pty Ltd", "xxx.jpg", "t.nolan@g3n1u5.com"]
+    ]
+},
+
+{
+    groupName: "Publication Chair",
+    groupItems: [
+        ["Bang Wu", "RMIT University", "xxx.jpg", "Bang.wu@rmit.edu.au"]
+    ]
+},
+
+{
+    groupName: "Publicity Chair",
+    groupItems: [
+        ["TBA", "", "xxx.jpg"]
+    ]
+},
+
+{
+    groupName: "Local Organisation Chairs",
+    groupItems: [
+        ["Alice Dong", "", "xxx.jpg"],
+        ["Jie Hua", "", "xxx.jpg"],
+        ["Zhicong Chen", "", "xxx.jpg"]
+    ]
+}
+
+];
