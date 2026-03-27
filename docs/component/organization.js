@@ -192,6 +192,7 @@ setInfo(rootPath, groupName, groupItems) {
 
     });
 }
+}
     
 customElements.define(TemplateOrganizationGroup.TAG_NAME, TemplateOrganizationGroup);
 
