@@ -70,12 +70,12 @@ const organizationData = [
     ]
 },
 
-{
+/*{
     groupName: "Publication Chair",
     groupItems: [
         ["Bang Wu", "RMIT University", "xxx.jpg", "Bang.wu@rmit.edu.au"]
     ]
-},
+},*/
 
 {
     groupName: "Publicity Chair",
