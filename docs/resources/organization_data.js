@@ -38,7 +38,7 @@ const organizationData = [
     groupName: "Program Chairs (Late-Breaking Work)",
     groupItems: [
         ["Ali Braytee", "University of Technology Sydney", "AliBraytee.jpg"],
-        ["Jolin Qu", "Western Sydney University", "xxx.jpg", "zhonglin.qu@uts.edu.au"]
+        ["Jolin Qu", "Western Sydney University", "Jolin.jpg", "zhonglin.qu@uts.edu.au"]
     ]
 },
 
