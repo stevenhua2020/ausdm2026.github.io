@@ -12,8 +12,8 @@ const organizationData = [
 {
     groupName: "Steering Committee Chairs",
     groupItems: [
-        ["Yun Sing Koh", "The University of Auckland", "xxx.jpg"],
-        ["Richi Nayak", "Queensland University of Technology", "xxx.jpg"],
+        ["Yun Sing Koh", "The University of Auckland", "YunSingKoh.jpg"],
+        ["Richi Nayak", "Queensland University of Technology", "RichiNayak.jpg"],
         ["Yanchang Zhao", "Data61, CSIRO", "YanchangZhao.jpg"]
     ]
 },
@@ -45,7 +45,7 @@ const organizationData = [
 {
     groupName: "Doctoral Consortium Chairs",
     groupItems: [
-        ["TBA", "", "xxx.jpg"]
+        ["Asara Senaratne", "Flinders University", "AsaraSenaratne.jpg"]
     ]
 },
 
