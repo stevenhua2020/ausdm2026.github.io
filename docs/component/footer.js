@@ -11,7 +11,7 @@ templateFooterDoc.documentElement.innerHTML = `
                 </div>
                 <div id="contact">
                     <h3>Contact Us</h3>
-                    <p>Email: <a href="mailto:xxxx@gmail.com">xxxx@gmail.com</a></p>
+                    <p>Email: <a href="mailto:ausdm26@googlegroups.com">ausdm26@googlegroups.com</a></p>
                     <p>LinkedIn: <a href=" https://www.linkedin.com/groups/xxxx/"> https://www.linkedin.com/groups/4907891/</a></p>
                     <!--<p>Facebook: <a href="https://www.facebook.com/AusDM25">https://www.facebook.com/AusDM25</a></p>
                     <p>Sigmoid Social: <a href="https://sigmoid.social/@AusDM25">https://sigmoid.social/@AusDM25</a></p>-->
