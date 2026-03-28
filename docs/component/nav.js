@@ -35,7 +35,8 @@ templateNavDoc.documentElement.innerHTML = `
                     </ul>
                 </li>
 
-                <li><a href="./Conference Program.html">Program<i class="arrow down"></i></a>
+                <!-- <li><a href="./Conference Program.html">Program<i class="arrow down"></i></a> -->
+                <li><a href="javascript:void(0);">Program<i class="arrow down"></i></a>
                     <ul class="submenu">
                         <!-- <li><a href="./Conference Program.html">Conference Program Overview</a></li>
                         <li><a href="./Industry Invited Session.html">Industry Invited Sessions</a></li>
@@ -47,16 +48,22 @@ templateNavDoc.documentElement.innerHTML = `
                     </ul>
                 </li>
 
-                <li><a href="./Venue.html">Attending <i class="arrow down"></i></a>
+                <!-- <li><a href="./Venue.html">Attending <i class="arrow down"></i></a> -->
+                <li><a href="javascript:void(0);">Attending <i class="arrow down"></i></a>
                     <ul class="submenu">
                         <!-- <li><a href="./Venue.html">Venue</a></li>
                         <li><a href="./Travel Brisbane.html">Travel Brisbane</a></li> -->
                     </ul>
                 </li>
 
-                <li><a href="./Registration.html">Registration</a></li>
+                <!-- <li><a href="./Registration.html">Registration</a></li>
                 <li><a href="./Keynote%20Sessions.html">Keynote & Invited Speakers</a></li>
-                <li><a href="./Conference Policies.html">Conference Policies</a></li>
+                <li><a href="./Conference Policies.html">Conference Policies</a></li> -->
+
+                <li><a href="javascript:void(0);">Registration</a></li>
+                <li><a href="javascript:void(0);">Keynote & Invited Speakers</a></li>
+                <li><a href="javascript:void(0);">Conference Policies</a></li>
+                
                 <!-- <li><a href="./Journal Special Issue.html">Journal Special Issue</a></li> -->
                 <!-- <li><a href="./Sponsorship.html">Sponsorship</a></li> -->
                 <!-- <li><a href="#programme">Gallery</a></li> -->
