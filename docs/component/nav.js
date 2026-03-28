@@ -21,8 +21,8 @@ templateNavDoc.documentElement.innerHTML = `
                         <li><a href="./Call for Doctoral Consortium.html">Call for Doctoral Consortium</a></li>
                         <li><a href="./Call for Workshops and Special Sessions.html">Call for Workshops and Special Sessions</a></li>
                         <li><a href="./Call for Tutorials.html">Call for Tutorials</a></li>
-                        <li><a href="./Submissions.html">Submissions</a></li>
-                        <li><a href="./Publications.html">Publication</a></li>
+                        <!-- <li><a href="./Submissions.html">Submissions</a></li>
+                        <li><a href="./Publications.html">Publication</a></li> -->
                         <!-- <li><a href="./Call for Tutorials and Workshops.html">Call for Tutorials and Workshops</a></li>
                         <li><a href="./Special Sessions.html">Special Sessions</a></li> -->
                     </ul>
@@ -31,33 +31,33 @@ templateNavDoc.documentElement.innerHTML = `
                 <li><a href="./Organizing Committee.html">Committees <i class="arrow down"></i></a>
                     <ul class="submenu">
                         <li><a href="./Organizing Committee.html">Organising Committee</a></li>
-                        <li><a href="./Program Committee.html">Program Committee</a></li>
+                        <!-- <li><a href="./Program Committee.html">Program Committee</a></li> -->
                     </ul>
                 </li>
 
                 <li><a href="./Conference Program.html">Program<i class="arrow down"></i></a>
                     <ul class="submenu">
-                        <li><a href="./Conference Program.html">Conference Program Overview</a></li>
+                        <!-- <li><a href="./Conference Program.html">Conference Program Overview</a></li>
                         <li><a href="./Industry Invited Session.html">Industry Invited Sessions</a></li>
                         <li><a href="./Special Session.html">Panel Sessions</a></li>
                         <li><a href="./Paper Presentation Schedule.html">Paper Presentation Schedule</a></li>
                         <li><a href="./Tutorials.html">Tutorials</a></li>
                          <li><a href="./Doctoral Consortium.html">Doctoral Consortium</a></li>
-                         <li><a href="./Accepted Papers.html">Accepted Papers</a></li>
+                         <li><a href="./Accepted Papers.html">Accepted Papers</a></li> -->
                     </ul>
                 </li>
 
                 <li><a href="./Venue.html">Attending <i class="arrow down"></i></a>
                     <ul class="submenu">
-                        <li><a href="./Venue.html">Venue</a></li>
-                        <li><a href="./Travel Brisbane.html">Travel Brisbane</a></li>
+                        <!-- <li><a href="./Venue.html">Venue</a></li>
+                        <li><a href="./Travel Brisbane.html">Travel Brisbane</a></li> -->
                     </ul>
                 </li>
 
                 <li><a href="./Registration.html">Registration</a></li>
                 <li><a href="./Keynote%20Sessions.html">Keynote & Invited Speakers</a></li>
                 <li><a href="./Conference Policies.html">Conference Policies</a></li>
-                <li><a href="./Journal Special Issue.html">Journal Special Issue</a></li>
+                <!-- <li><a href="./Journal Special Issue.html">Journal Special Issue</a></li> -->
                 <!-- <li><a href="./Sponsorship.html">Sponsorship</a></li> -->
                 <!-- <li><a href="#programme">Gallery</a></li> -->
             </ul>
