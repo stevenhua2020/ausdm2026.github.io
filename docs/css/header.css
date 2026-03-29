@@ -168,8 +168,8 @@ header {
 .title {
     text-align: center;
     line-height: 1.3;
-    margin: 100px auto;
-    padding:  auto;
+    margin: 0 auto;
+    padding:  40px 20px;
     color: #ffffff;
     width: 800px;
 }
