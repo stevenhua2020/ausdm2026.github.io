@@ -28,10 +28,7 @@ templateFooterDoc.documentElement.innerHTML = `
                     <a href="https://www.rmit.edu.au/utilities/terms">Terms</a>
                 -->
                <p style="font-size: 12px; color: #999;">
-                Background images by 
-                <a href="https://teamblm.com.au" target="_blank">Brisbane Local Marketing</a> and 
-                Rob Molhoek on 
-                <a href="https://unsplash.com" target="_blank">Unsplash</a>.
+
                 </p>
 
 </p>
