@@ -133,9 +133,11 @@ header {
     display: flex; /* Use flexbox */
     justify-content: center; /* Horizontally center the child */
     align-items: center;
-    height: 800px;
+    height: 65vh;          /* KEY CHANGE */
+    min-height: 400px;     /* prevent too small */
+    max-height: 650px;     /* prevent too large */    
     background-size: cover; /* Adjusts the size of the background image to cover the entire container */
-    background-position: center;
+    background-position: center 35%;
 }
 
 .small-title-container {
