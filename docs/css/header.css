@@ -164,6 +164,13 @@ header {
     font-style: normal;
 }
 
+.title h11 {
+    font-size: 30px;          /* smaller */
+    color: #003366;           /* darker = clearer */
+    text-shadow: none;        /* REMOVE shadow */
+    margin-bottom: 8px;
+}
+
 .title h1 span{
     text-transform: none;
 }
@@ -174,6 +181,12 @@ header {
     text-shadow: 0.1em 0.1em 0.1em #000000;
     font-weight: bold;
     font-style: normal;
+}
+
+.title h33 {
+    font-size: 17px;
+    color: #444;
+    font-weight: normal;
 }
 
 @media screen and (max-width: 1300px) {
