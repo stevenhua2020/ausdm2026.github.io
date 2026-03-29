@@ -69,12 +69,9 @@ main {
     }
 }
 
-
-
-
 .small-title-background-image {
-    background: linear-gradient(to bottom, #e6f0fa, #f8fbff);
-    padding: 25px 0;   /* reduced */
+    background: #e9f2fb;   /* slightly cleaner tone */
+    padding: 20px 0;       /* reduce height further */
 }
 
 
