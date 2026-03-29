@@ -142,14 +142,14 @@ header {
     display: flex; /* Use flexbox */
     justify-content: center; /* Horizontally center the child */
     align-items: center;
-    height: 200px;
+    height: 150px;
     background-size: cover; /* Adjusts the size of the background image to cover the entire container */
     background-position: center;
     margin-top: 80px;
 }
 
 .small-title-container .title h1 {
-    font-size: 28px;
+    font-size: 20px;
     color: #1f3d66;
     font-weight: 600;
     margin-bottom: 6px;
@@ -157,7 +157,7 @@ header {
 }
 
 .small-title-container .title h3 {
-    font-size: 16px;
+    font-size: 14px;
     color: #666;
     font-weight: 400;
     text-shadow: none;   /* IMPORTANT */
