@@ -145,6 +145,7 @@ header {
     height: 200px;
     background-size: cover; /* Adjusts the size of the background image to cover the entire container */
     background-position: center;
+    margin-top: 80px;
 }
 
 .small-title-container .title h1 {
