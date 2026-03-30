@@ -176,17 +176,10 @@ header {
 
 .title h1{
     text-transform: uppercase;
-    font-size: 45px;
+    font-size: 30px;
     text-shadow: 0.1em 0.1em 0.1em #000000;
     font-weight: bold;
     font-style: normal;
-}
-
-.title h11 {
-    font-size: 30px;          /* smaller */
-    color: #003366;           /* darker = clearer */
-    text-shadow: none;        /* REMOVE shadow */
-    margin-bottom: 8px;
 }
 
 .title h1 span{
@@ -194,17 +187,11 @@ header {
 }
 
 .title h3{
-    margin: 20px;
+    margin: 18px;
     font-size: 30px;
     text-shadow: 0.1em 0.1em 0.1em #000000;
     font-weight: bold;
     font-style: normal;
-}
-
-.title h33 {
-    font-size: 17px;
-    color: #444;
-    font-weight: normal;
 }
 
 @media screen and (max-width: 1300px) {
