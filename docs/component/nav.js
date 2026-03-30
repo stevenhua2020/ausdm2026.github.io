@@ -111,7 +111,7 @@ nav {
     top: 0; /* Aligns the nav bar to the top */
     width: 100%; /* Ensures the nav bar extends full width */
     z-index: 800; /* Ensures the nav bar stays on top of other elements */
-    height: 150px;
+    height: 80px;
 }
 
 .nav-container {
@@ -129,7 +129,7 @@ nav {
     margin: 0;
     padding: 0;
     text-align: center;
-    font-size: 20px;
+    font-size: 16px;
 }
 
 #navbar li {
@@ -141,7 +141,7 @@ nav {
 
 #navbar a {
     text-decoration: none;
-    padding: 15px;
+    padding: 10px 8px;
     display: inline-block;
     font-weight: 550;
 }
