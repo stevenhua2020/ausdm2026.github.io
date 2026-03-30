@@ -66,14 +66,14 @@ const organizationData = [
 {
     groupName: "Industry Chair",
     groupItems: [
-        ["Tony Nolan", "G3N1U5 Pty Ltd", "xxx.jpg", "t.nolan@g3n1u5.com"]
+        ["Tony Nolan", "G3N1U5 Pty Ltd", "TonyNolan.jpg", "t.nolan@g3n1u5.com"]
     ]
 },
 
 {
     groupName: "Publication Chair",
     groupItems: [
-        ["Bang Wu", "RMIT University", "xxx.jpg", "Bang.wu@rmit.edu.au"]
+        ["Bang Wu", "RMIT University", "BangWu.jpg", "Bang.wu@rmit.edu.au"]
     ]
 },
 
