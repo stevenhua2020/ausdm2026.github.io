@@ -45,7 +45,7 @@ const organizationData = [
 {
     groupName: "Doctoral Consortium Chairs",
     groupItems: [
-        ["Arnick Abdollahi", "University of Technology Sydney", "ArnickAbdollahi.jpg"] 
+        ["Arnick Abdollahi", "University of Technology Sydney", "ArnickAbdollahi.jpg"],
         ["Asara Senaratne", "Flinders University", "AsaraSenaratne.jpg"]
     ]
 },
