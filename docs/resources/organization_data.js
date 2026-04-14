@@ -45,6 +45,7 @@ const organizationData = [
 {
     groupName: "Doctoral Consortium Chairs",
     groupItems: [
+        ["Arnick Abdollahi", "University of Technology Sydney", "ArnickAbdollahi.jpg"] 
         ["Asara Senaratne", "Flinders University", "AsaraSenaratne.jpg"]
     ]
 },
@@ -77,6 +78,13 @@ const organizationData = [
     ]
 },
 
+{
+    groupName: "Sponsorship Chair",
+    groupItems: [
+        ["Kartikeya Acharya", "DELECTRO Pty Ltd", "KartikeyaAcharya.jpg", ""]
+    ]
+},
+    
 /*{
     groupName: "Publicity Chair",
     groupItems: [
