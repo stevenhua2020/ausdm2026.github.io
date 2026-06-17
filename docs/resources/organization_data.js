@@ -13,8 +13,8 @@ const organizationData = [
     groupName: "Steering Committee Chairs",
     groupItems: [
         ["Yun Sing Koh", "The University of Auckland", "YunSingKoh.jpg"],
-        ["Richi Nayak", "Queensland University of Technology", "RichiNayak.jpg"],
-        ["Yanchang Zhao", "Data61, CSIRO", "YanchangZhao.jpg"]
+        ["Richi Nayak", "Queensland University of Technology", "RichiNayak.jpg"]
+        //["Yanchang Zhao", "Data61, CSIRO", "YanchangZhao.jpg"]
     ]
 },
 
@@ -29,7 +29,7 @@ const organizationData = [
 {
     groupName: "Program Chairs (Application Track)",
     groupItems: [
-        ["Sevvandi Kandanaarachchi", "Data61, CSIRO", "SevvandiKandanaarachchi.png", "sevvandi.kandanaarachchi@data61.csiro.au"],
+        //["Sevvandi Kandanaarachchi", "Data61, CSIRO", "SevvandiKandanaarachchi.png", "sevvandi.kandanaarachchi@data61.csiro.au"],
         ["Md Rafiqul Islam", "Charles Darwin University", "MdRafiqulIslam.jpg", "mdrafiqul.islam@cdu.edu.au"]
     ]
 },
