@@ -13,7 +13,7 @@ const organizationData = [
     groupName: "Steering Committee Chairs",
     groupItems: [
         ["Yun Sing Koh", "The University of Auckland", "YunSingKoh.jpg"],
-        ["Richi Nayak", "Queensland University of Technology", "RichiNayak.jpg"]
+        ["Richi Nayak", "Queensland University of Technology", "RichiNayak.jpg"],
         ["Yanchang Zhao", "CSIRO", "YanchangZhao.jpg"]
     ]
 },
