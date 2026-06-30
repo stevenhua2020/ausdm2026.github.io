@@ -6,9 +6,9 @@ templateFooterDoc.documentElement.innerHTML = `
 <template id='template-footer'>
     <footer>
             <div class="foot-container">
-                <div id="foot-logo"> 
+                <!--<div id="foot-logo"> 
                     <img src="./media/AusDM-Logo.png" alt="AusDM-Logo">
-                </div>
+                </div> -->
                 <div id="contact">
                     <h3>Contact Us</h3>
                     <p>Email: <a href="mailto:ausdm26@googlegroups.com">ausdm26@googlegroups.com</a></p>
