@@ -79,12 +79,14 @@ footer {
 #contact h3{
     color: #00457d;
     font-weight: bold;
+    margin-bottom: 4px;
 }
 
 #contact p{
     color: #00457d;
     font-weight: bold;
-    padding-top: 5px;
+    margin: 2px 0;
+    padding-top: 0;
 }
 
 #contact a{
