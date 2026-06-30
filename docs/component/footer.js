@@ -59,7 +59,7 @@ footer {
     justify-content: center;
     align-items: center;
     margin: auto;
-    height: 300px;
+    height: 120px;
 
 }
 
