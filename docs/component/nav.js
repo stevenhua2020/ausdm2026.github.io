@@ -58,11 +58,11 @@ templateNavDoc.documentElement.innerHTML = `
 
                 <li><a href="./Registration.html">Registration</a></li>
                 <!-- <li><a href="./Keynote%20Sessions.html">Keynote & Invited Speakers</a></li>
-                <li><a href="./Conference Policies.html">Conference Policies</a></li> -->
+                <li><a href="./Conference Policies.html">Conference Policies</a></li>
 
                 <li><a href="javascript:void(0);">Registration</a></li>
                 <li><a href="javascript:void(0);">Keynote & Invited Speakers</a></li>
-                <li><a href="javascript:void(0);">Conference Policies</a></li>
+                <li><a href="javascript:void(0);">Conference Policies</a></li> -->
                 
                 <!-- <li><a href="./Journal Special Issue.html">Journal Special Issue</a></li> -->
                 <!-- <li><a href="./Sponsorship.html">Sponsorship</a></li> -->
