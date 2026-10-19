@@ -37,7 +37,7 @@ templateNavDoc.documentElement.innerHTML = `
 
                 <li><a href="./Call for Sponsors.html">Call for Sponsors</a></li>
                 
-                <li><a href="./Conference Program.html">Program<i class="arrow down"></i></a>
+                <!--<li><a href="./Conference Program.html">Program<i class="arrow down"></i></a>-->
                 <li><a href="javascript:void(0);">Program<i class="arrow down"></i></a>
                     <ul class="submenu">
                          <li><a href="./Conference Program.html">Conference Program Overview</a></li>
