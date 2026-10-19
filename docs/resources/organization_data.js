@@ -78,12 +78,12 @@ const organizationData = [
     ]
 },
 
-{
+/*{
     groupName: "Sponsorship Chair",
     groupItems: [
         ["Kartikeya Acharya", "DELECTRO Pty Ltd", "KartikeyaAcharya.jpg", ""]
     ]
-},
+},*/
     
 /*{
     groupName: "Publicity Chair",
