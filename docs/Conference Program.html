@@ -18,7 +18,6 @@
   <script src="./component/footer.js"></script>
   <title>The 24th Australasian Data Science and Machine Learning Conference (AusDM'26)</title>
   <style>
-    /* Same beautiful style as your original page */
     .program { margin: 0 0 2rem 0; }
     .program .day-title h1 { margin-top: 1.25rem; }
     .legend { display:flex; flex-wrap:wrap; gap:.5rem; margin:.75rem 0 1.25rem; }
@@ -27,23 +26,27 @@
     .program-table thead th { background:#00457d; color:#fff; font-weight:600; letter-spacing:.02em; font-size:.9rem; text-transform:uppercase; padding:12px 14px; }
     .program-table td { padding:12px 14px; border-bottom:1px solid #e7eef7; vertical-align:top; }
     .program-table tr:last-child td { border-bottom:none; }
-    .time { white-space:nowrap; font-weight:700; color:#00345f; width:160px; }
+    .time { white-space:nowrap; font-weight:700; color:#00345f; }
     .session-title { font-weight:600; color:#0b2551; font-size:1rem; }
     .venue { display:inline-block; margin-top:6px; padding:2px 8px; border-radius:999px; border:1px solid #d8e4f4; background:#f0f6ff; color:#084; font-size:.8rem; }
     .chair { color:#335; font-size:.9rem; margin-top:4px; font-weight:600; }
     .parallel { display:inline-block; margin-left:.4rem; font-size:.75rem; padding:2px 8px; border-radius:6px; border:1px solid #d8e4f4; background:#eef5ff; color:#00345f; }
-    .paper-list { margin-top: 8px; font-size: 0.85rem; line-height: 1.4; }
-    .paper-list strong { color: #00457d; }
+    
+    /* Paper List Styling */
+    .paper-list { margin-top: 12px; font-size: 0.85rem; line-height: 1.5; }
+    .paper-item { margin-bottom: 12px; }
+    .paper-item strong { color: #00457d; }
+    .paper-authors { color: #444; font-style: italic; display: block; margin-top: 2px; }
 
-    /* Color coding – identical to original */
-    tr.keynote td    { background:#FFF9E6; } /* yellow */
-    tr.research td   { background:#E6F0FF; } /* light blue */
-    tr.application td{ background:#EAF9F0; } /* soft green */
-    tr.industry td   { background:#EAF9F0; } /* same as application for invited talks */
-    tr.panel td      { background:#FFF3E6; } /* pale orange */
-    tr.social td     { background:#F2E6FF; } /* light purple */
-    tr.tutorial td   { background:#E6FAFF; } /* soft cyan */
-    tr.break td      { background:#F8F9FA; color:#555; } /* light gray */
+    /* Color coding */
+    tr.keynote td    { background:#FFF9E6; } 
+    tr.research td   { background:#E6F0FF; } 
+    tr.application td{ background:#EAF9F0; } 
+    tr.industry td   { background:#EAF9F0; } 
+    tr.panel td      { background:#FFF3E6; } 
+    tr.social td     { background:#F2E6FF; } 
+    tr.tutorial td   { background:#E6FAFF; } 
+    tr.break td      { background:#F8F9FA; color:#555; } 
 
     @media (max-width: 720px){
       .program-table thead{ display:none; }
@@ -94,22 +97,26 @@
             <p style="margin: 65px auto; font-size: larger;">You can download the conference booklet <a href="#">HERE</a>!</p>
           </div>-->
           
-          <!--<div class="legend">
+          <div class="legend">
             <div class="chip">Default venue: <b>University of Technology Sydney</b></div>
             <div class="chip">Times in <b>AEDT</b></div>
-          </div> -->
+          </div>
 
           <!-- DAY 1 -->
           <h2>Day 1 — Wednesday, 2 December 2026</h2>
           <table class="program-table" aria-label="Day 1 Program">
             <thead>
-              <tr><th style="width:160px">Time</th><th>Program Item</th><th>Details</th></tr>
+              <tr>
+                <th style="width:120px">Time</th>
+                <th style="width:25%">Program Item</th>
+                <th>Details</th>
+              </tr>
             </thead>
             <tbody>
               <tr class="break">
                 <td class="time">08:30–09:00</td>
                 <td class="session-title">Registration</td>
-                <td><span class="venue">Venue: Foyer</span></td>
+                <td></td>
               </tr>
               <tr>
                 <td class="time">09:00–09:10</td>
@@ -129,7 +136,7 @@
               <tr class="break">
                 <td class="time">10:30–10:50</td>
                 <td class="session-title">Morning Tea</td>
-                <td><span class="venue">Venue: Foyer</span></td>
+                <td></td>
               </tr>
               <tr class="keynote">
                 <td class="time">10:50–11:30</td>
@@ -142,17 +149,17 @@
                 <td>
                   <div class="chair">Session chair: TBA</div>
                   <div class="paper-list">
-                    <strong>Paper 28:</strong> WikiLint-SMT: Formal Semantic Consistency Verification for LLM-Maintained Knowledge Bases<br>
-                    <strong>Paper 48:</strong> Statistical Bias when using Hierarchical Clustering on Network Data<br>
-                    <strong>Paper 55:</strong> KGSAGE: Knowledge Graph Semantic Anomaly Generator<br>
-                    <strong>Paper 64:</strong> Mining Curriculum Knowledge Graphs to Reveal Hidden Structure in Flexible Degrees
+                    <div class="paper-item"><strong>Paper 28:</strong> WikiLint-SMT: Formal Semantic Consistency Verification for LLM-Maintained Knowledge Bases<span class="paper-authors">Bailing Zhang (NingboTech University); Yifan Lu (Ningbo Institute of Technology, Zhejiang University); Xin Yu (NingboTech University)</span></div>
+                    <div class="paper-item"><strong>Paper 48:</strong> Statistical Bias when using Hierarchical Clustering on Network Data<span class="paper-authors">Laurence Park (Western Sydney University); Peter Stuckey (Monash University)</span></div>
+                    <div class="paper-item"><strong>Paper 55:</strong> KGSAGE: Knowledge Graph Semantic Anomaly Generator<span class="paper-authors">Jasenthu Tharindu Wickramasinghe (Flinders University); Asara Senaratne (Flinders University); Leelanga Seneviratne (University of Moratuwa)</span></div>
+                    <div class="paper-item"><strong>Paper 64:</strong> Mining Curriculum Knowledge Graphs to Reveal Hidden Structure in Flexible Degrees<span class="paper-authors">Gizem Intepe (Western Sydney University); Oliver Middleton (Western Sydney University); Laurence Park (Western Sydney University)</span></div>
                   </div>
                 </td>
               </tr>
               <tr class="break">
                 <td class="time">12:30–13:30</td>
                 <td class="session-title">Lunch</td>
-                <td><span class="venue">Venue: Foyer</span></td>
+                <td></td>
               </tr>
               <tr class="panel">
                 <td class="time">13:30–14:30</td>
@@ -165,17 +172,17 @@
                 <td>
                   <div class="chair">Session chair: TBA</div>
                   <div class="paper-list">
-                    <strong>Paper 29:</strong> Knowledge Triage and Representation Routing for LLM-Maintained Wikis...<br>
-                    <strong>Paper 45:</strong> Order-Invariant Retrieval-Augmented Generation... (video presentation)<br>
-                    <strong>Paper 52:</strong> Beyond Single-Run Top-K Fairness...<br>
-                    <strong>Paper 102:</strong> Can Weak Models Supervise Strong Models? Cross-Family Evidence...
+                    <div class="paper-item"><strong>Paper 29:</strong> Knowledge Triage and Representation Routing for LLM-Maintained Wikis: A Preliminary Empirical Study on a Real Low-Resource University-Course Corpus<span class="paper-authors">Bailing Zhang (NingboTech University); Yifan Lu (Ningbo Institute of Technology, Zhejiang University); Xin Yu (NingboTech University)</span></div>
+                    <div class="paper-item"><strong>Paper 45:</strong> Order-Invariant Retrieval-Augmented Generation: Certifying and Achieving Robustness to Passage Ordering under Retrieval Noise (video presentation)<span class="paper-authors">Shoumya Chowdhury (The University of Melbourne); Anmita Das (The University of Melbourne); Sushanta Paul (National Board of Revenue, Bangladesh)</span></div>
+                    <div class="paper-item"><strong>Paper 52:</strong> Beyond Single-Run Top-K Fairness: Distributional Evaluation and Calibration for Stochastic LLM-based Recommender Systems<span class="paper-authors">Chengkun He (Shenzhen Institute for Advanced Study, UESTC); Xin Man (UESTC); Jie Shao (UESTC); Xiangmin Zhou (RMIT University); Yiming Ji (New Aim)</span></div>
+                    <div class="paper-item"><strong>Paper 102:</strong> Can Weak Models Supervise Strong Models? Cross-Family Evidence for Weak-to-Strong Generalization<span class="paper-authors">Shuhan Zhao (The University of Sydney); Liang Lei (The University of Sydney); Shaotian Li (University of Technology Sydney); Gabriel H. M. Oliveira (University of Fortaleza); Weidong Huang (University of Technology Sydney); Mukesh Prasad (University of Technology Sydney); Ali Anaissi (University of Technology Sydney); Ali Braytee (University of Technology Sydney)</span></div>
                   </div>
                 </td>
               </tr>
               <tr class="break">
                 <td class="time">15:30–15:50</td>
                 <td class="session-title">Afternoon Tea</td>
-                <td><span class="venue">Venue: Foyer</span></td>
+                <td></td>
               </tr>
               <tr class="tutorial">
                 <td class="time">15:50–17:50</td>
@@ -189,13 +196,17 @@
           <h2>Day 2 — Thursday, 3 December 2026</h2>
           <table class="program-table" aria-label="Day 2 Program">
             <thead>
-              <tr><th style="width:160px">Time</th><th>Program Item</th><th>Details</th></tr>
+              <tr>
+                <th style="width:120px">Time</th>
+                <th style="width:25%">Program Item</th>
+                <th>Details</th>
+              </tr>
             </thead>
             <tbody>
               <tr class="break">
                 <td class="time">08:30–09:00</td>
                 <td class="session-title">Registration</td>
-                <td><span class="venue">Venue: Foyer</span></td>
+                <td></td>
               </tr>
               <tr class="keynote">
                 <td class="time">09:00–09:40</td>
@@ -208,17 +219,17 @@
                 <td>
                   <div class="chair">Session chair: TBA</div>
                   <div class="paper-list">
-                    <strong>Paper 4:</strong> A Course Intelligence Platform for Higher Education...<br>
-                    <strong>Paper 19:</strong> When LLMs See the Market...<br>
-                    <strong>Paper 92:</strong> Classifying Workplace Incidents Using Snowflake Cortex...<br>
-                    <strong>Paper 98:</strong> Bridging a Low-Resource Gap... Squliq Atayal--Chinese Translation
+                    <div class="paper-item"><strong>Paper 4:</strong> A Course Intelligence Platform for Higher Education: Lessons from AI-Assisted Course Evaluation<span class="paper-authors">Bo Yuan (The University of Queensland); Jiazi Hu (AI U Course); Haimei Zhao (The University of Sydney)</span></div>
+                    <div class="paper-item"><strong>Paper 19:</strong> When LLMs See the Market: A Multimodal Multi-Agent Framework for Asset Management with Numerical, News, and Visual Price Representations<span class="paper-authors">Xiaobin lu (The University of Sydney); Matloob Khushi (Brunel University of London); Josiah Poon (The University of Sydney)</span></div>
+                    <div class="paper-item"><strong>Paper 92:</strong> Classifying Workplace Incidents Using Snowflake Cortex: Opportunities for AI-Enabled Public Sector Modernisation<span class="paper-authors">Divya Sukumar (University of New England); Ljiljana Brankovic (University of New England); Sujana Adapa (University of New England); Stephan Chalup (University of Newcastle); Shan Chen (Macquarie University)</span></div>
+                    <div class="paper-item"><strong>Paper 98:</strong> Bridging a Low-Resource Gap: Corpus Construction, Fine-Tuning, and Many-Shot In-Context Learning for Squliq Atayal--Chinese Translation<span class="paper-authors">Jia-Lien Hsu (Fu Jen Catholic University); Yi-Ting Wang (Fu Jen Catholic University)</span></div>
                   </div>
                 </td>
               </tr>
               <tr class="break">
                 <td class="time">10:40–11:00</td>
                 <td class="session-title">Morning Tea</td>
-                <td><span class="venue">Venue: Foyer</span></td>
+                <td></td>
               </tr>
               <tr class="application">
                 <td class="time">11:00–12:15</td>
@@ -226,18 +237,18 @@
                 <td>
                   <div class="chair">Session chair: TBA</div>
                   <div class="paper-list">
-                    <strong>Paper 24:</strong> Faithful Explainability for Depression Severity Regression...<br>
-                    <strong>Paper 31:</strong> Data Standardization Matters... OMOP CDM<br>
-                    <strong>Paper 57:</strong> Machine Learning-Based Prediction of Childhood Stunting...<br>
-                    <strong>Paper 61:</strong> An Interpretable Framework for Early Lung Cancer Prediction...<br>
-                    <strong>Paper 99:</strong> Structural Coverage and Modeling Tractability Across the Human Kinome...
+                    <div class="paper-item"><strong>Paper 24:</strong> Faithful Explainability for Depression Severity Regression under Noisy Automated Targets<span class="paper-authors">Ngonidzashe Kanyangarara (Federation University); Jiangang Ma (Federation University)</span></div>
+                    <div class="paper-item"><strong>Paper 31:</strong> Data Standardization Matters: Enhancing GNN-Based Patient Journey Modeling with OMOP CDM and Controlled Clinical Vocabularies<span class="paper-authors">Hem Ojha (University of Technology Sydney); Daniel Catchpoole (University of Technology Sydney); Paul J. Kennedy (University of Technology Sydney); Madhushi Bandara (University of Technology Sydney)</span></div>
+                    <div class="paper-item"><strong>Paper 57:</strong> Machine Learning-Based Prediction of Childhood Stunting in Bangladesh: Fairness and Temporal Robustness Assessment<span class="paper-authors">MD Ahshanul Haque (Charles Sturt University - Bathurst Campus); Muhammad Ashad Kabir (Charles Sturt University - Bathurst Campus)</span></div>
+                    <div class="paper-item"><strong>Paper 61:</strong> An Interpretable Framework for Early Lung Cancer Prediction Using Graph Fusion and Role Stability for Robust Feature Selection with TabFGT<span class="paper-authors">Safayet Ullah (Southeast University); Md. Zubayer Ahmad Shibly (Southeast University); Md. Jubayer Islam (Southeast University); Al- Amain (Southeast University ); MD Masum Billah (Assistant Professor, Daffodil International University); Tarem Ahmed (RIoT Research Center and Department of CSE, Independent University); MM Mahbubul Syeed (Professor, Department of Computer Science and Engineering (CSE), Independent University, Bangladesh (IUB))</span></div>
+                    <div class="paper-item"><strong>Paper 99:</strong> Structural Coverage and Modeling Tractability Across the Human Kinome: A BUB1B Case Study<span class="paper-authors">Joan Glenny Pescov (University of Miami)</span></div>
                   </div>
                 </td>
               </tr>
               <tr class="break">
                 <td class="time">12:15–13:15</td>
                 <td class="session-title">Lunch</td>
-                <td><span class="venue">Venue: Foyer</span></td>
+                <td></td>
               </tr>
               <tr class="research">
                 <td class="time">13:15–14:30</td>
@@ -245,11 +256,11 @@
                 <td>
                   <div class="chair">Session chair: TBA</div>
                   <div class="paper-list">
-                    <strong>Paper 25:</strong> Few-Shot Logical Anomaly Detection...<br>
-                    <strong>Paper 49:</strong> Benchmarking Foundation Models for Bone Scaffold Pore Detection...<br>
-                    <strong>Paper 53:</strong> Density-Aware YOLOv12n...<br>
-                    <strong>Paper 100:</strong> From multi-camera streams to operational metadata...<br>
-                    <strong>Paper 101:</strong> SleepNet and DreamNet: Enriching and Reconstructing Representations...
+                    <div class="paper-item"><strong>Paper 25:</strong> Few-Shot Logical Anomaly Detection based on Region-Attentive VLM for Simple Inspection Rules<span class="paper-authors">Tomohiro Yamada (Chukyo University); Naoki Murakami (Chukyo University); Naoto Hiramatsu (Chukyo University); Shuichi Akizuki (Chukyo University); Manabu Hashimoto (Chukyo University)</span></div>
+                    <div class="paper-item"><strong>Paper 49:</strong> Benchmarking Foundation Models for Bone Scaffold Pore Detection: A Comparative Analysis of Few-Shot Performance<span class="paper-authors">Tri Tin Vo (Queensland University of Technology); Vu Thien An Ngo (School of Electrical Engineering and Robotics, Queensland University of Technology); Nhi Kieu (School of Electrical Engineering and Robotics, Queensland University of Technology); Kien Nguyen (School of Electrical Engineering and Robotics, Queensland University of Technology); Clinton Fookes (School of Electrical Engineering and Robotics, Queensland University of Technology); Cuong Luu (Griffith University (Nathan Campus)); Giang Phan (Ton Duc Thang University)</span></div>
+                    <div class="paper-item"><strong>Paper 53:</strong> Density-Aware YOLOv12n: Enhancing Small Object Detection and Compression Robustness in Satellite-Based Vehicular Networks<span class="paper-authors">Md Hossain (Center for Computational & Data Sciences, Independent University, Bangladesh); Md. Sayem (Independent University, Bangladesh); Md Fahad Monir (Independent University, Bangladesh); Md Zahangir Alam (Independent University, Bangladesh); Tarem Ahmed (Independent University, Bangladesh)</span></div>
+                    <div class="paper-item"><strong>Paper 100:</strong> From multi-camera streams to operational metadata: Early results from a privacy-conscious edge analytics system<span class="paper-authors">Tomasz Raszkowski (Fujitsu Poland, Lodz University of Technology); Agnieszka Raszkowska (Fujitsu Poland)</span></div>
+                    <div class="paper-item"><strong>Paper 101:</strong> SleepNet and DreamNet: Enriching and Reconstructing Representations for Visual Classification<span class="paper-authors">Mingze Ni (University of Technology Sydney); Wei Liu (University of Technology Sydney)</span></div>
                   </div>
                 </td>
               </tr>
@@ -259,17 +270,17 @@
                 <td>
                   <div class="chair">Session chair: TBA</div>
                   <div class="paper-list">
-                    <strong>Paper 15:</strong> ICI-Time: In-Context Inpainting for Adaptable Time Series Forecasting<br>
-                    <strong>Paper 40:</strong> Comparative study of Wi-Fi RSS Fingerprinting-based Indoor Localization...<br>
-                    <strong>Paper 62:</strong> Learning Under Hardware Shift: Neural Decoding...<br>
-                    <strong>Paper 93:</strong> A Universe-Inspired Mathematical Framework for Immersive Analytics...
+                    <div class="paper-item"><strong>Paper 15:</strong> ICI-Time: In-Context Inpainting for Adaptable Time Series Forecasting<span class="paper-authors">Thang Nguyen (Deakin Univeristy); Dung Nguyen (Deakin University); Romero Morais (Deakin University); Truyen Tran (Deakin University)</span></div>
+                    <div class="paper-item"><strong>Paper 40:</strong> Comparative study of Wi-Fi RSS Fingerprinting-based Indoor Localization in Large, Multi-Floor Buildings using Machine Learning and Deep Learning Algorithms<span class="paper-authors">Inoj Neupane (Western Sydney University); Rodrigo Calheiros (Western Sydney University); Farhad Ahamed (Western Sydney University); Md Rafiqul Islam (Charles Darwin University)</span></div>
+                    <div class="paper-item"><strong>Paper 62:</strong> Learning Under Hardware Shift: Neural Decoding Across Superconducting Quantum Processors<span class="paper-authors">Shahin Adam (Western Sydney University)</span></div>
+                    <div class="paper-item"><strong>Paper 93:</strong> A Universe-Inspired Mathematical Framework for Immersive Analytics of High-Dimensional Data<span class="paper-authors">Md Shahadat Hossain (Western Sydney University); Daniel Catchpoole (University of Technology, Sydney); Simeon Simoff (Western Sydney University); Chng Wei Lau (Western Sydney University); Quang Vinh Nguyen (Western Sydney University)</span></div>
                   </div>
                 </td>
               </tr>
               <tr class="break">
                 <td class="time">15:50–16:10</td>
                 <td class="session-title">Afternoon Tea</td>
-                <td><span class="venue">Venue: Foyer</span></td>
+                <td></td>
               </tr>
               <tr class="application">
                 <td class="time">16:10–17:10</td>
@@ -277,10 +288,10 @@
                 <td>
                   <div class="chair">Session chair: TBA</div>
                   <div class="paper-list">
-                    <strong>Paper 27:</strong> Bayesian State-Space Models for Retail Promotion Planning...<br>
-                    <strong>Paper 32:</strong> Reconstructing Residential Daily Water Use from Manual-Meter Totals<br>
-                    <strong>Paper 50:</strong> Learning from Public Import Refusals... (video presentation)<br>
-                    <strong>Paper 21:</strong> A Hawkes–Transformer Model for Cyber Risk Prediction...
+                    <div class="paper-item"><strong>Paper 27:</strong> Bayesian State-Space Models for Retail Promotion Planning and Profit Optimisation<span class="paper-authors">Jitong Wang (University of Technology Sydney); Xiaodan Dong ( University of Technology Sydney); Jennifer Chan (The University of Sydney); Gareth Peters (University of California, Santa Barbara)</span></div>
+                    <div class="paper-item"><strong>Paper 32:</strong> Reconstructing Residential Daily Water Use from Manual-Meter Totals<span class="paper-authors">Levon Rush (University of Newcastle); Scott Brown (University of Newcastle ); Khaled Saleh (University of Newcastle); Ian Hiles (Hunter Water Corporation); Alexandre Mendes (University of Newcastle)</span></div>
+                    <div class="paper-item"><strong>Paper 50:</strong> Learning from Public Import Refusals: A Temporal Benchmark for AI-Assisted Import Risk Triage under Confidentiality Constraints (video presentation)<span class="paper-authors">Sushanta Paul (National Board of Revenue, Dhaka, Bangladesh); Anmita Das (University of Melbourne, Melbourne, Australia); Shoumya Chowdhury (University of Melbourne, Melbourne, Australia)</span></div>
+                    <div class="paper-item"><strong>Paper 21:</strong> A Hawkes–Transformer Model for Cyber Risk Prediction: Comparative Evaluation on a Synthetic Hawkes Benchmark<span class="paper-authors">NgocThanhTuan Nguyen (University of Technology Sydney); XIAODAN Dong (UTS); Gareth Peters (University of California, Santa Barbara); Weidong Huang (University of Technology Sydney)</span></div>
                   </div>
                 </td>
               </tr>
@@ -291,13 +302,17 @@
           <h2>Day 3 — Friday, 4 December 2026</h2>
           <table class="program-table" aria-label="Day 3 Program">
             <thead>
-              <tr><th style="width:160px">Time</th><th>Program Item</th><th>Details</th></tr>
+              <tr>
+                <th style="width:120px">Time</th>
+                <th style="width:25%">Program Item</th>
+                <th>Details</th>
+              </tr>
             </thead>
             <tbody>
               <tr class="break">
                 <td class="time">08:30–09:00</td>
                 <td class="session-title">Registration</td>
-                <td><span class="venue">Venue: Foyer</span></td>
+                <td></td>
               </tr>
               <tr class="research">
                 <td class="time">09:00–10:00</td>
@@ -305,10 +320,10 @@
                 <td>
                   <div class="chair">Session chair: TBA</div>
                   <div class="paper-list">
-                    <strong>Paper 26:</strong> Dimension Reduction based on Defect Detectability Retention...<br>
-                    <strong>Paper 91:</strong> A non-Euclidean method for improved time-series analysis<br>
-                    <strong>Paper 107:</strong> XClusIV: Explainable Clustering<br>
-                    <strong>Paper 37:</strong> AI-Driven Database Management System Optimization...
+                    <div class="paper-item"><strong>Paper 26:</strong> Dimension Reduction based on Defect Detectability Retention for Fast Anomaly Detection<span class="paper-authors">Naoto Hiramatsu (Chukyo University); Naoki Murakami (Chukyo University); Shuichi Akizuki (Chukyo University); Manabu Hashimoto (Chukyo University)</span></div>
+                    <div class="paper-item"><strong>Paper 91:</strong> A non-Euclidean method for improved time-series analysis<span class="paper-authors">Stephen Lechowicz (Australian National University)</span></div>
+                    <div class="paper-item"><strong>Paper 107:</strong> XClusIV: Explainable Clustering<span class="paper-authors">David Alexander (CSIRO)</span></div>
+                    <div class="paper-item"><strong>Paper 37:</strong> AI-Driven Database Management System Optimization under Workload Drift: A Hybrid Bandit Optimizer with Reinforcement Learning Approach<span class="paper-authors">Ashish Singh Songara (University of Technology Sydney); XIAODAN Dong (UTS); Weidong Huang (University of Technology Sydney)</span></div>
                   </div>
                 </td>
               </tr>
@@ -318,18 +333,18 @@
                 <td>
                   <div class="chair">Session chair: Masoud Shakiba and Soheil Pour</div>
                   <div class="paper-list">
-                    <strong>Paper 74:</strong> Benchmark-Grounded Heat-Map Computer Vision...<br>
-                    <strong>Paper 75:</strong> Image Only Dynamic Routing Among Small Vision Language Models...<br>
-                    <strong>Paper 88:</strong> AI-Based Video and Speech Assessment for Post-Stroke Rehabilitation...<br>
-                    <strong>Paper 104:</strong> Deep Learning for Alzheimer’s Disease-related Cognitive Impairment Classification...<br>
-                    <strong>Paper 105:</strong> Giving Supply Chains a Mind of Their Own...
+                    <div class="paper-item"><strong>Paper 74:</strong> Benchmark-Grounded Heat-Map Computer Vision for IPv4 Network Anomaly Detection and Source-Derived IPv6-Oriented Robustness Evaluation<span class="paper-authors">Hemant Rawal (Unitec Institute of Technology); Russel Mesbah (Unitec Institute of Technology); Soheil Varastehpour (Unitec Institute of Technology); Masoud Shakiba (Unitec Institute of Technology)</span></div>
+                    <div class="paper-item"><strong>Paper 75:</strong> Image Only Dynamic Routing Among Small Vision Language Models for Accuracy-Latency-Aware Classification<span class="paper-authors">Hasanka Madushan (Unitec Institute of Technology); Russel Mesbah (Unitec Institute of Technology); Soheil Varastehpour (Unitec Institute of Technology); Masoud Shakiba (Unitec Institute of Technology)</span></div>
+                    <div class="paper-item"><strong>Paper 88:</strong> AI-Based Video and Speech Assessment for Post-Stroke Rehabilitation: A Critical Review Towards Multimodal, Longitudinal Assessment<span class="paper-authors">Fereshteh Jaberi (Unitec Institute of Technology); Soheil Varastehpour (Unitec Institute of Technology); Hamid Sharifzadeh (Unitec Institute of Technology); Harshani Fonseka (Unitec Institute of Technology)</span></div>
+                    <div class="paper-item"><strong>Paper 104:</strong> Deep Learning for Alzheimer’s Disease-related Cognitive Impairment Classification: A Review of Neuroimaging, Speech and Multimodal Approaches<span class="paper-authors">Harshani Fonseka (Unitec Institute of Technology); Soheil Varastehpour (Unitec Institute of Technology); Hamid Sharifzadeh (Unitec Institute of Technology); Fereshteh Jaberi (Unitec Institute of Technology)</span></div>
+                    <div class="paper-item"><strong>Paper 105:</strong> Giving Supply Chains a Mind of Their Own: Using Deep Reinforcement Learning to Manage the Seafood Supply Chain<span class="paper-authors">Behrang Ijadi (ICL Graduate Business School); Stephen C. Wingreen (University of Canterbury); Pedro M. Reyes (Baylor University); Amir H. Gandomi (University of Technology Sydney)</span></div>
                   </div>
                 </td>
               </tr>
               <tr class="break">
                 <td class="time">11:15–11:35</td>
                 <td class="session-title">Morning Tea</td>
-                <td><span class="venue">Venue: Foyer</span></td>
+                <td></td>
               </tr>
               <tr class="keynote">
                 <td class="time">11:35–12:15</td>
@@ -339,7 +354,7 @@
               <tr class="break">
                 <td class="time">12:15–13:15</td>
                 <td class="session-title">Lunch</td>
-                <td><span class="venue">Venue: Foyer</span></td>
+                <td></td>
               </tr>
               <tr class="industry">
                 <td class="time">13:15–13:55</td>
@@ -354,7 +369,7 @@
               <tr class="break">
                 <td class="time">14:55–15:15</td>
                 <td class="session-title">Afternoon Tea</td>
-                <td><span class="venue">Venue: Foyer</span></td>
+                <td></td>
               </tr>
               <tr class="industry">
                 <td class="time">15:15–16:00</td>
