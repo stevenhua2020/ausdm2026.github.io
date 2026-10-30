@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./media/AusDM-square-Logo2.png" type="image/x-icon">
+    <meta http-equiv="Content-Type" content="text/html">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/article.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <script src="./script/dynamic-viewport.js"></script>
+    <script src="./component/nav.js"></script>
+    <script src="./component/aside.js"></script>
+    <script src="./component/footer.js"></script>
+
+    <title>The 24th Australasian Data Science and Machine Learning Conference (AusDM'26)</title>
+</head>
+<style>
+
+</style>
+
+<body>
+
+    <header>
+        <template-nav page-name="Tutorial"></template-nav>
+        <div class="fill-box"></div>
+        <div class="small-title-container small-title-background-image">
+            <div class="title">
+                <h1>The 24th Australasian Data Science and Machine Learning Conference <span>(AusDM'26)</span></h1>
+                <h3>Sydney, Australia | 2-4 December 2026</h3>
+            </div>
+        </div>
+
+        <div style="background-color: #fff;">
+            <svg width="100%" height="4vw" viewBox="0 0 1280 140" preserveAspectRatio="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <g fill="rgba(0,69,125,0.87)">
+                    <path
+                        d="M0 0v100c20 17.3 40 29.51 80 29.51 51.79 0 74.69-48.57 151.75-48.57 73.72 0 91 54.88 191.56 54.88C543.95 135.8 554 14 665.69 14c109.46 0 98.85 87 188.2 87 70.37 0 69.81-33.73 115.6-33.73 55.85 0 62 39.62 115.6 39.62 58.08 0 57.52-46.59 115-46.59 39.8 0 60 22.48 79.89 39.69V0z" />
+                </g>
+            </svg>
+        </div>
+
+    </header>
+
+    <main>
+        <div class="main-container">
+            <div class="content-container">
+                <article>
+                    <h1>Tutorials</h1>
+                    
+                    <div class="card">
+                        <h1>Tutorial 1: AI-Powered Cyber-Threat Detection: From Machine Learning and Transformers to LLMs and Agentic AI</h1>
+                        <div class="speakers">
+                            <div class="speaker">
+                                <h2>Dr. Navid Yazdanjue</h2>
+                                <h5>University of Technology Sydney</h5>
+                            </div>
+                            <div class="speaker">
+                                <h2>Prof. Amir H. Gandomi</h2>
+                                <h5>University of Technology Sydney</h5>
+                            </div>
+                        </div>
+                        <h4>Abstract:</h4>
+                        <p>This tutorial provides a practical and research-oriented introduction to AI-powered cyber-threat detection, tracing the evolution from conventional feature engineering and ML techniques to representation learning, transformer-based language models (LM), semi-supervised and ensemble learning, and emerging approaches based on large language models (LLMs), retrieval-augmented generation (RAG), and agentic AI.</p>
+                        <p>Rather than focusing on a single algorithm, the tutorial presents cyber-threat detection as an end-to-end data science and ML problem. It discusses data characteristics and preprocessing, text representation, classification under limited supervision, model evaluation and generalisation, and emerging AI-assisted threat-intelligence workflows.</p>
+                        <p>The tutorial is grounded in peer-reviewed research and practical case studies involving deep/dark-web and high-risk online platforms. In particular, two complementary studies will be used as real-world case studies to illustrate the evolution of AI-driven cyber-threat detection under limited labelled data. The first, published in Annals of Operations Research, develops a semi-supervised ensemble learning framework enhanced by the Interior Search Algorithm for illicit marketplace classification across deep/dark-web and social platforms. The second, recently published in the Journal of Big Data, advances this direction through a language-model-driven semi-supervised ensemble framework, integrating contextual language-model representations with handcrafted features and ensemble learning for illicit market detection across heterogeneous online sources. Importantly, this research was undertaken through the Digital Finance Cooperative Research Centre (DFCRC), supported by the Australian Government’s Cooperative Research Centres Program, in collaboration with Cyber Intelligence House (CIH) as the industry partner, with the developed approaches deployed and evaluated in a real-world cyber-intelligence environment. This industry collaboration provides a practical perspective on translating ML research into real-world cyber-threat intelligence workflows, including challenges associated with heterogeneous data, limited labels, scalability, model reliability, and operational deployment. The case studies will be used to derive broader methodological and practical lessons rather than to present individual research papers.</p>
+                    </div>
+
+                    <div class="card" style="margin-top: 2rem;">
+                        <h1>Tutorial 2: Teaching an Agent to Do Machine Learning - A hands-on tutorial on driving a Python ML library from an AI assistant</h1>
+                        <div class="speakers">
+                            <div class="speaker">
+                                <h2>Nilesh Verma</h2>
+                                <h5>AI Institute, University of Waikato, Hamilton 3216, New Zealand</h5>
+                            </div>
+                            <div class="speaker">
+                                <h2>Nick Lim</h2>
+                                <h5>AI Institute, University of Waikato, Hamilton 3216, New Zealand</h5>
+                            </div>
+                        </div>
+                        <p><strong>Contributors:</strong> Albert Bifet (LTCI, Télécom Paris, Institut Polytechnique de Paris, 91120 Palaiseau, France), Bernhard Pfahringer (AI Institute, University of Waikato, Hamilton 3216, New Zealand)</p>
+                        <h4>Abstract:</h4>
+                        <p>Data scientists are increasingly asking AI assistants to do modelling work for them, and the assistant usually answers by writing a block of throwaway Python that nobody checks, which is fast and completely unaccountable, since you cannot reproduce it, you cannot audit it, and you often cannot tell whether the evaluation was even valid. This tutorial teaches the alternative. Instead of letting the assistant write code, we give it a machine learning library as a set of typed tools it can call over the Model Context Protocol (MCP), so the agent works the way a careful analyst works, by calling ordinary library functions whose inputs and outputs are schema-checked and logged, and every action it takes can be replayed by hand afterwards, in a notebook, by the attendee. The session is built around a single claim that attendees verify for themselves rather than take on trust, namely that agent-driven data science can be fully transparent and reproducible, provided the agent is restricted to the same ordinary function calls a human would make.</p>
+                    </div>
+
+                </article>
+            </div>
+            <template-aside></template-aside>
+        </div>
+    </main>
+
+    <template-footer></template-footer>
+
+</body>
+</html>
+```<ElicitationsGroup>
+</ElicitationsGroup>
