@@ -51,7 +51,7 @@ templateNavDoc.documentElement.innerHTML = `
                     </ul>
                 </li>
 
-                <li><a href="./Venue.html">Attending <i class="arrow down"></i></a>
+                <!-- <li><a href="./Venue.html">Attending <i class="arrow down"></i></a> -->
                 <li><a href="javascript:void(0);">Attending <i class="arrow down"></i></a>
                     <ul class="submenu">
                         <li><a href="./Venue.html">Venue</a></li>
