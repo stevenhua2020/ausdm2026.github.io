@@ -42,18 +42,18 @@ templateNavDoc.documentElement.innerHTML = `
                     <ul class="submenu">
                          <li><a href="./Conference Program.html">Conference Program Overview</a></li>
                          <li><a href="./Panel.html">Panel</a></li> 
-                         <li><a href="./Keynote%20Sessions.html">Keynote & Invited Speakers</a></li>
+                         <li><a href="./Keynote%20Sessions.html">Keynote Speakers</a></li>
                          <li><a href="./Tutorials.html">Tutorials</a></li>
-                        <!--<li><a href="./Industry Invited Session.html">Industry Invited Sessions</a></li>
-                        <li><a href="./Special Session.html">Panel Sessions</a></li>
+                        <li><a href="./Industry Session.html">Industry Session</a></li>
+                        <!-- <li><a href="./Special Session.html">Panel Sessions</a></li>
                         <li><a href="./Paper Presentation Schedule.html">Paper Presentation Schedule</a></li>
                          <li><a href="./Doctoral Consortium.html">Doctoral Consortium</a></li>
                          <li><a href="./Accepted Papers.html">Accepted Papers</a></li> -->
                     </ul>
                 </li>
 
-                <!-- <li><a href="./Venue.html">Attending <i class="arrow down"></i></a> -->
-                <li><a href="javascript:void(0);">Attending <i class="arrow down"></i></a>
+                <!-- <li><a href="./Venue.html">Venue <i class="arrow down"></i></a> -->
+                <li><a href="javascript:void(0);">Venue <i class="arrow down"></i></a>
                     <ul class="submenu">
                         <li><a href="./Venue.html">Venue</a></li>
                         <!-- <li><a href="./Travel Brisbane.html">Travel Brisbane</a></li> -->
@@ -61,11 +61,11 @@ templateNavDoc.documentElement.innerHTML = `
                 </li>
 
                 <li><a href="./Registration.html">Registration</a></li>
-                <!-- <li><a href="./Keynote%20Sessions.html">Keynote & Invited Speakers</a></li>
+                <!-- <li><a href="./Keynote%20Sessions.html">Keynote Speakers</a></li>
                 <li><a href="./Conference Policies.html">Conference Policies</a></li>
 
                 <li><a href="javascript:void(0);">Registration</a></li>
-                <li><a href="javascript:void(0);">Keynote & Invited Speakers</a></li>
+                <li><a href="javascript:void(0);">Keynote Speakers</a></li>
                 <li><a href="javascript:void(0);">Conference Policies</a></li> -->
                 
                 <!-- <li><a href="./Journal Special Issue.html">Journal Special Issue</a></li> -->
