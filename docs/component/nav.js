@@ -40,7 +40,7 @@ templateNavDoc.documentElement.innerHTML = `
                 <!--<li><a href="./Conference Program.html">Program<i class="arrow down"></i></a>-->
                 <li><a href="javascript:void(0);">Program<i class="arrow down"></i></a>
                     <ul class="submenu">
-                         <li><a href="./Conference Program.html">Conference Program Overview</a></li>
+                         <li><a href="./Conference Program.html">Program Overview</a></li>
                          <li><a href="./Panel.html">Panel</a></li> 
                          <li><a href="./Keynote%20Sessions.html">Keynote Speakers</a></li>
                          <li><a href="./Tutorials.html">Tutorials</a></li>
