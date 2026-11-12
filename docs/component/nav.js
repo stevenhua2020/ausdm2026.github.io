@@ -52,13 +52,14 @@ templateNavDoc.documentElement.innerHTML = `
                     </ul>
                 </li>
 
-                <!-- <li><a href="./Venue.html">Venue <i class="arrow down"></i></a> -->
+                <li><a href="./Venue.html">Venue</a></li>
+                <!-- <li><a href="./Venue.html">Venue <i class="arrow down"></i></a>
                 <li><a href="javascript:void(0);">Venue <i class="arrow down"></i></a>
                     <ul class="submenu">
                         <li><a href="./Venue.html">Venue</a></li>
-                        <!-- <li><a href="./Travel Brisbane.html">Travel Brisbane</a></li> -->
+                        <li><a href="./Travel Brisbane.html">Travel Brisbane</a></li> 
                     </ul>
-                </li>
+                </li>-->
 
                 <li><a href="./Registration.html">Registration</a></li>
                 <!-- <li><a href="./Keynote%20Sessions.html">Keynote Speakers</a></li>
